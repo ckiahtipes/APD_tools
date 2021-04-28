@@ -1,0 +1,195 @@
+﻿Pol_type,Family,CodeNames,FullNames,Biome
+,FABACEAE - CAESALPINIACEAE,Afzelia,Afzelia,01-RARE-GCRF-WOODLAND MOSAIC
+,Apiaceae undiff.,Apiaceae,Apiaceae undiff.,01-RARE-GCRF-WOODLAND MOSAIC
+,ZYGOPHYLLACEAE,Balanites,Balanites,01-RARE-GCRF-WOODLAND MOSAIC
+,ACANTHACEAE,Barleria,Barleria,01-RARE-GCRF-WOODLAND MOSAIC
+,CAPPARACEAE,Bucholzia,Bucholzia,01-RARE-GCRF-WOODLAND MOSAIC
+,CAPPARACEAE,Capparis,Capparis,01-RARE-GCRF-WOODLAND MOSAIC
+,BURSERACEAE,Commiphora,Commiphora,01-RARE-GCRF-WOODLAND MOSAIC
+,FABACEAE - CAESALPINIACEAE,Daniella,Daniella,01-RARE-GCRF-WOODLAND MOSAIC
+,FABACEAE - CAESALPINIACEAE,Detarium,Detarium,01-RARE-GCRF-WOODLAND MOSAIC
+,FABACEAE - MIMOSACEAE,Dichrostachys,Dichrostachys,01-RARE-GCRF-WOODLAND MOSAIC
+,EUPHORBIACEAE,Euphorbia,Elaeophorbia/Euphorbia,01-RARE-GCRF-WOODLAND MOSAIC
+,EUPHORBIACEAE,Erythrococca,Erythrococca/Micrococca,01-RARE-GCRF-WOODLAND MOSAIC
+,FABACEAE - MIMOSACEAE,Fabaceae,Fabaceae - Mimosoideae Undiff.,01-RARE-GCRF-WOODLAND MOSAIC
+,MALVACEAE,Hildegardia,Hildegardia,01-RARE-GCRF-WOODLAND MOSAIC
+,ULMACEAE,Holoptela,Holoptela grandis,01-RARE-GCRF-WOODLAND MOSAIC
+,RUBIACEAE,Psydrax,Keetia/Psydrax,01-RARE-GCRF-WOODLAND MOSAIC
+,LAMIACEAE,Lamiaceae,Lamiaceae undiff.,01-RARE-GCRF-WOODLAND MOSAIC
+,CARDIOTERIDACEAE,Leptaulus,Leptaulus,01-RARE-GCRF-WOODLAND MOSAIC
+,LECYTHIDACEAE,Napoleona,Napoleona,01-RARE-GCRF-WOODLAND MOSAIC
+,OCHNACEAE,Ochna,Ochna,01-RARE-GCRF-WOODLAND MOSAIC
+,OLEACEAE,Oleaceae,Oleaceae undiff.,01-RARE-GCRF-WOODLAND MOSAIC
+,SALICACEAE,Oncoba,Oncoba dentata,01-RARE-GCRF-WOODLAND MOSAIC
+,FABACEAE - CAESALPINIACEAE,Piliostigma,Piliostigma,01-RARE-GCRF-WOODLAND MOSAIC
+,POLYGALACEAE,Securidaca,Polygala/Securidaca,01-RARE-GCRF-WOODLAND MOSAIC
+,PASSIFLORACEAE,Adenia,Adenia,01-RARE-HERBACEOUS
+,CARYOPHYLLACEAE,Caryophyllaceae,Caryophyllaceae undiff.,01-RARE-HERBACEOUS
+,Convolvulaceae Undiff.,Convolvulaceae,Convolvulaceae Undiff.,01-RARE-HERBACEOUS
+,FABACEAE,Indigofera,Indigofera,01-RARE-HERBACEOUS
+,ACANTHACEAE,Justicia,Justicia-type,01-RARE-HERBACEOUS
+,FABACEAE,Lotus,Lotus,01-RARE-HERBACEOUS
+,PIPERACEAE,Peperomia,Peperomia,01-RARE-HERBACEOUS
+,CARYOPHYLLACEAE,Polycarpaea,Polycarpaea-type,01-RARE-HERBACEOUS
+,SCROPHULARIACEAE,Scrophulariaceae,Scrophulariaceae undiff.,01-RARE-HERBACEOUS
+,PEDALIACEAE,Sesamum,Sesamum,01-RARE-HERBACEOUS
+,BORAGINACEAE,Trichodesma,Trichodesma,01-RARE-HERBACEOUS
+,AMARYLLIDACEAE,Crinium,Crinium sp.,01-RARE-HERBACEOUS - WETLAND
+,APOCYNACEAE,Bassiea,Bassiea,01-RARE-LIANA
+,SAPINDACEAE,Cardiospermum,Cardiospermum,01-RARE-LIANA
+,HERNANDIACEAE,Illigera,Illigera,01-RARE-LIANA
+,Malpighiaceae undiff.,Malpighiaceae,Malpighiaceae undiff.,01-RARE-LIANA
+,RUBIACEAE,Sabicea,Sabicea,01-RARE-LIANA
+,APOCYNACEAE,Tylophora,Tylophora,01-RARE-LIANA
+,Rubiaceae,Aidia,Aidia/Catunaregam,01-RARE-MIXED GCRF
+,Mimosaceae,Cathormion,Albizia/Cathormion,01-RARE-MIXED GCRF
+,Apocynaceae,Landolphia,Alstonia/Landolphia,01-RARE-MIXED GCRF
+,ERYTHROXYLACEAE,Aneulophus,Aneulophus,01-RARE-MIXED GCRF
+,EUPHORBIACEAE,Anthostema,Anthostema,01-RARE-MIXED GCRF
+,SAPINDACEAE,Aphania,Aphania/Lecaniodiscus,01-RARE-MIXED GCRF
+,FABACEAE,Baphia,Baphia/Millettia,01-RARE-MIXED GCRF
+,BURSERACEAE,Canarium,Canarium schweinfurthii,01-RARE-MIXED GCRF
+,EUPHORBIACEAE,Centroplacus,Centroplacus glaucinus,01-RARE-MIXED GCRF
+,CONNARACEAE,Connaraceae,Connaraceae undiff.,01-RARE-MIXED GCRF
+,Boraginaceae,Cordia,Cordia,01-RARE-MIXED GCRF
+,FABACEAE - CAESALPINIACEAE,Crudia,Crudia/Anthonotha/Microberlinia,01-RARE-MIXED GCRF
+,ACHARIACEAE - FLACOURTIACEAE,Dasylepis,Dasylepis,01-RARE-MIXED GCRF
+,FABACEAE - CAESALPINIACEAE,Dialium,Dialium,01-RARE-MIXED GCRF
+,DICHAPETALACEAE,Dichapetalum,Dichapetalum,01-RARE-MIXED GCRF
+,THYMELAEAECEAE,Dicranolepis,Dicranolepis,01-RARE-MIXED GCRF
+,EUPHORBIACEAE,Drypetes,Drypetes/Shirakia,01-RARE-MIXED GCRF
+,PALMAE,Eremospatha,Eremospatha,01-RARE-MIXED GCRF
+,SAPINDACEAE,Eriocoelum,Eriocoelum,01-RARE-MIXED GCRF
+,Apocynaceae,Funtumia,Funtumia/Holarrhena/Strophanthus,01-RARE-MIXED GCRF
+,RUBIACEAE,Gaertnera,Gaertnera,01-RARE-MIXED GCRF
+,CLUSIACEAE,Garcinia,Garcinia,01-RARE-MIXED GCRF
+,FABACEAE - CAESALPINIACEAE,Guibourtia,Guibourtia,01-RARE-MIXED GCRF
+,ICACINACEAE,Icacinaceae,Icacinaceae undiff.,01-RARE-MIXED GCRF
+,RUBIACEAE,Ixora,Ixora-type,01-RARE-MIXED GCRF
+,KIRKIACEAE,Kirkia,Kirkia,01-RARE-MIXED GCRF
+,PALMAE,Laccosperma,Laccosperma,01-RARE-MIXED GCRF
+,FABACEAE,Pterocarpus,Machaerium/Ormocarpum/Pterocarpus,01-RARE-MIXED GCRF
+,EUPHORBIACEAE,Martretia,Martretia,01-RARE-MIXED GCRF
+,PERIDISCACEAE,Medusandra,Medusandra,01-RARE-MIXED GCRF
+,OLACACEAE,Ongokea,Ongokea gore,01-RARE-MIXED GCRF
+,PANDACEAE,Panda,Panda oleosa,01-RARE-MIXED GCRF
+,CHRYSOBALANACEAE,Parinari,Parinari,01-RARE-MIXED GCRF
+,SAPINDACEAE,Paullinia,Paullinia,01-RARE-MIXED GCRF
+,PODOCARPACEAE,Podocarpus,Podocarpus,01-RARE-MIXED GCRF
+,PROTEACEAE,Protea,Protea-type,01-RARE-MIXED GCRF
+,RUBIACEAE,Psychotria,Psychotria,01-RARE-MIXED GCRF
+,MYRSINACEAE,Rapanea,Rapanea,01-RARE-MIXED GCRF
+,BURSERACEAE,Santiria,Santiria,01-RARE-MIXED GCRF
+,OLACACEAE,Strombosia,Strombosia,01-RARE-MIXED GCRF
+,OLACACEAE,Strombosiopsis,Strombosiopsis,01-RARE-MIXED GCRF
+,CLUSIACEAE,Symphonia,Symphonia globulifera,01-RARE-MIXED GCRF
+,APOCYNACEAE,Tabernaemontana,Tabernaemontana,01-RARE-MIXED GCRF
+,RUTACEAE,Vepris,Teclea/Vepris,01-RARE-MIXED GCRF
+,CAESALPINIACEAE,Tessmannia,Tessmannia,01-RARE-MIXED GCRF
+,DILLENIACEAE,Tetracera,Tetracera,01-RARE-MIXED GCRF
+,FABACEAE - MIMOSACEAE,Tetrapleura,Tetrapleura,01-RARE-MIXED GCRF
+,ANACARDIACEAE,Tricoscypha,Tricoscypha/Sorindeia-type juglandifolia,01-RARE-MIXED GCRF
+,MELIACEAE,Turraeanthus,Turraeanthus,01-RARE-MIXED GCRF
+,ULMACEAE,Ulmaceae,Ulmaceae undiff.,01-RARE-MIXED GCRF
+,FABACEAE - MIMOSACEAE,Xylia,Xylia-type,01-RARE-MIXED GCRF
+,ANACARDIACEAE,Mangifera,Mangifera type,01-RARE-PIONEER TREES/SHRUBS
+,RUBIACEAE,Morinda,Morinda lucida-type,01-RARE-PIONEER TREES/SHRUBS
+,LAMIACEAE,Premna,Premna,01-RARE-PIONEER TREES/SHRUBS
+,POLYGONACEAE,Rumex,Rumex,01-RARE-PIONEER TREES/SHRUBS
+,SALVADORACEAE,Salvadora,Salvadora,01-RARE-PIONEER TREES/SHRUBS
+,BIGNONIACEAE,Spathodea,Spathodea,01-RARE-PIONEER TREES/SHRUBS
+,FABACEAE,Tephrosia,Tephrosia,01-RARE-PIONEER TREES/SHRUBS
+,FABACEAE - CAESALPINIACEAE,Brachystegia,Brachystegia,01-RARE-RIPARIAN GCRF
+,PALMAE,Calamus,Calamus,01-RARE-RIPARIAN GCRF
+,SALICACEAE,Casaeria,Casaeria,01-RARE-RIPARIAN GCRF
+,Rubiaceae,Craterispermum,Craterispermum,01-RARE-RIPARIAN GCRF
+,EUPHORBIACEAE,Dichostemma,Dichostemma,01-RARE-RIPARIAN GCRF
+,Sapotaceae,Manilkara,Manilkara-type,01-RARE-RIPARIAN GCRF
+,VIOLACEAE,Rinorea,Rinorea,01-RARE-RIPARIAN GCRF
+,ANACARDIACEAE,Spondias,Spondias,01-RARE-INTRODUCED_VERIFY
+,ERICACEAE,Ericaceae,Ericaceae undiff.,12_VARIOUS-WIDESPREAD
+,PHYLLANTHACEAE,Phyllantheae,Phyllantheae undiff.,12_VARIOUS-WIDESPREAD
+,RUTACEAE,Rutaceae,Rutaceae undiff.,12_VARIOUS-WIDESPREAD
+,TILIACEAE,Tiliaceae,Tiliaceae undiff.,12_VARIOUS-WIDESPREAD
+,SAPINDACEAE,Blighia,Blighia,03_GCRF-WOODLAND MOSAIC
+,EUPHORBIACEAE,Bridelia,Bridelia/Cleistanthus,03_GCRF-WOODLAND MOSAIC
+,MALVACEAE - STERCULIACEAE,Sterculia,Cola/Sterculia,03_GCRF-WOODLAND MOSAIC
+,EBENACEAE,Diospyros,Diospyros,03_GCRF-WOODLAND MOSAIC
+,ASPARAGACEAE - DRACANEACEAE,Dracaena,Dracaena,03_GCRF-WOODLAND MOSAIC
+,MYRTACEAE,Syzygium,Eugenia/Syzygium,03_GCRF-WOODLAND MOSAIC
+,FABACEAE - CAESALPINIACEAE,Fabaceae,Fabaceae - Caesalpiniaceae undiff.,03_GCRF-WOODLAND MOSAIC
+,ZYGOPHYLLACEAE,Fagonia,Fagonia,03_GCRF-WOODLAND MOSAIC
+,MORACEAE,Ficus,Ficus,03_GCRF-WOODLAND MOSAIC
+,PHYLLANTHACEAE,Hymenocardia,Hymenocardia,03_GCRF-WOODLAND MOSAIC
+,FABACEAE - MIMOSACEAE,Parkia,Parkia,03_GCRF-WOODLAND MOSAIC
+,AIZOACEAE,Sessuvium,Sessuvium,03_GCRF-WOODLAND MOSAIC
+,VERBENACEAE,Vitex,Vitex,03_GCRF-WOODLAND MOSAIC
+,BRASSICACEAE,Brassicaceae,Brassicaceae Undiff.,10_HERBACEOUS
+,POACEAE - GRAMINEAE,Gramineae,Gramineae Undiff.,10_HERBACEOUS
+,BORAGINACEAE,Heliotropium,Heliotropium,10_HERBACEOUS
+,PLANTAGINACEAE,Plantago,Plantago,10_HERBACEOUS
+,CYPERACEAE,Cyperaceae,Cyperaceae undiff.,07_HERBACEOUS - WETLAND
+,NYMPHAEACEAE,Nymphaea,Nymphaea,07_HERBACEOUS - WETLAND
+,TYPHACEAE,Typha,Typha,07_HERBACEOUS - WETLAND
+,XYRIDACEAE,Xyris,Xyris,07_HERBACEOUS - WETLAND
+,CELASTRACEAE - HIPPOCRATEACEAE,Celastraceae,Celastraceae/Hippocrateaceae undiff.,11_LIANA
+,MENISPERMIACEAE,Tiliacora,Stephania/Tiliacora,11_LIANA
+,BURSERACEAE,Dacryodes,Boswellia/Dacryodes,01_GCRF-MIXED
+,GUTTIFERAE,Mammea,Mammea-type,01_GCRF-MIXED
+,MORACEAE,Antiaris,Antiaris/Milicia/Morus,01_GCRF-MIXED
+,EUPHORBIACEAE,Thecacoris,Antidesma/Thecacoris,01_GCRF-MIXED
+,EUPHORBIACEAE,Croton,Croton/Crotonogyne/Jatropha/Manniophyton/Neoboutonia,01_GCRF-MIXED
+,MELIACEAE,Meliaceae,Meliaceae undiff.,01_GCRF-MIXED
+,STERCULIACEAE,Nesogordonia,Nesogordonia,01_GCRF-MIXED
+,OLACACEAE,Olax,Olax,01_GCRF-MIXED
+,STERCULIACEAE,Triplochiton,Triplochiton,01_GCRF-MIXED
+,PALMAE,Borassus,Borassus/Hyphaene,09_PIONEER-DRY_SEASONAL
+,PALMAE,Elaeis,Elaeis guineensis,08_PIONEER-OPEN_GCRF
+,PALMAE,Palmae,Palmae Undiff.,12_VARIOUS-WIDESPREAD
+,PALMAE,Phoenix,Phoenix,05_HYDROPHILIC PALMS
+,PALMAE,Raphia,Raphia,05_HYDROPHILIC PALMS
+,FABACEAE - MIMOSACEAE,Acacia,Acacia,08_PIONEER-OPEN_GCRF
+,EUPHORBIACEAE,Alchornea,Alchornea,08_PIONEER-OPEN_GCRF
+,AMARANTHACEAE/CHENOPODIACEAE,Amaranthaceae,Amaranthaceae/Chenopodiaceae undiff.,08_PIONEER-OPEN_GCRF
+,GENTIANACEAE,Anthocleista,Anthocleista grandiflora,08_PIONEER-OPEN_GCRF
+,ASTERACEAE,Asteraceae,Asteraceae,08_PIONEER-OPEN_GCRF
+,BOMBACEAE,Bombax,Bombax,08_PIONEER-OPEN_GCRF
+,BOMBACEAE,Ceiba,Ceiba pentandra,08_PIONEER-OPEN_GCRF
+,RUBIACEAE,Nauclea,Corynanthe/Hallea/Hymenodictyon/Mitragyna inermis/Nauclea/Pausinystalia/Sarcocephalus/Uncaria,08_PIONEER-OPEN_GCRF
+,SIMAROUBACEAE,Hannoa,Hannoa,08_PIONEER-OPEN_GCRF
+,ANACARDIACEAE,Lannea,Lannea/Sclerocarya,08_PIONEER-OPEN_GCRF
+,EUPHORBIACEAE,Macaranga,Macaranga/Mallotus/Mareya,08_PIONEER-OPEN_GCRF
+,SAPOTACEAE,Pouteria,Pouteria,08_PIONEER-OPEN_GCRF
+,ULMACEAE,Trema,Trema,08_PIONEER-OPEN_GCRF
+,RHAMNACEAE,Zizyphus,Zizyphus,08_PIONEER-OPEN_GCRF
+,FABACEAE - CAESALPINIACEAE,Copaifera,Cassia/Cynometra/Erythrophleum/Copaifera/Monopetalanthus,04_GCRF-RIPARIAN
+,FABACEAE - MIMOSACEAE,Entada,Entada/Prosopis/Piptadeniastrum,04_GCRF-RIPARIAN
+,FABACEAE - CAESALPINIACEAE,Gilbertiodendron,Gilbertiodendron/Isomacrolobium/Isoberlinia/Berlinia/Pelligriniodendron,04_GCRF-RIPARIAN
+,IRVINGIACEAE,Irvingia,Irvingia/Klainedoxa,04_GCRF-RIPARIAN
+,OCHNACEAE,Lophira,Lophira alata,04_GCRF-RIPARIAN
+,SAPOTACEAE,Mimusops,Mimusops,04_GCRF-RIPARIAN
+,PANDANACEAE,Pandanus,Pandanus,04_GCRF-RIPARIAN
+,ANNONACEAE,Piptostigma,Piptostigma,04_GCRF-RIPARIAN
+,ROSACEAE,Prunus,Prunus,04_GCRF-RIPARIAN
+,ANACARDIACEAE,Pseudospondias,Rhus/Anthrocaryon/Pseudospondias,04_GCRF-RIPARIAN
+,MALVACEAE - STERCULIACEAE,Scaphopetalum,Scaphopetalum,04_GCRF-RIPARIAN
+,COMBRETACEAE,Terminalia,Terminalia,04_GCRF-RIPARIAN
+,PHYLLANTHACEAE,Uapaca,Uapaca,04_GCRF-RIPARIAN
+,SAPINDACEAE,Allophylus,Allophylus,02_GCRF-SEASONAL
+,CANNABACEAE - ULMACEAE,Celtis,Celtis,02_GCRF-SEASONAL
+,MORACEAE,Myrianthus,Myrianthus/Musanga,02_GCRF-SEASONAL
+,MYRISTICACEAE,Pycnanthus,Pycnanthus,02_GCRF-SEASONAL
+,EUPHORBIACEAE,Tetrorchidium,Tetrorchidium,02_GCRF-SEASONAL
+,RUTACEAE,Zanthoxylum,Zanthoxylum,02_GCRF-SEASONAL
+,Annonaceae Undiff.,Annonaceae,Annonaceae Undiff.,12_VARIOUS-WIDESPREAD
+,COMBRETACEAE,Combretaceae,Combretaceae undiff.,12_VARIOUS-WIDESPREAD
+,MALVACEAE - TILIACEAE,Malvaceae,Malvaceae - Tiliaceae undiff.,12_VARIOUS-WIDESPREAD
+,MORACEAE,Moraceae ,Moraceae Undiff.,12_VARIOUS-WIDESPREAD
+,RUBIACEAE,Rubiaceae ,Rubiaceae undiff.,12_VARIOUS-WIDESPREAD
+,SAPINDACEAE,Sapindaceae,Sapindaceae undiff.,12_VARIOUS-WIDESPREAD
+,SAPOTACEAE,Sapotaceae,Sapotaceae Undiff.,12_VARIOUS-WIDESPREAD
+,VITACEAE,Vitaceae,Vitaceae undiff.,12_VARIOUS-WIDESPREAD
+,NA,Indet,Indeterminate/NID,00_CORE_DETAILS
+,NA,volume,volume (ml),00_CORE_DETAILS
+,NA,Lyco_added,Lycopodium added,00_CORE_DETAILS
+,NA,Lyco_count,Lycopodium (tracer),00_CORE_DETAILS
