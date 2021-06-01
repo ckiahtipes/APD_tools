@@ -6,7 +6,6 @@
 
 rec_names=c("FC000","FC300","FC400")
 
-
 #Figure out how many taxa there are per record.
 name_length=vector(mode="numeric",length=1)
 fullname_length=vector(mode="numeric",length=1)
@@ -85,8 +84,8 @@ AML_full=read.csv("AML_base.csv",header=TRUE) ###THIS MIGHT DESERVE ITS OWN FOLD
 
 #Revised names are 2,402. 
 
-original_names=unique(AML_full$ORIGINAL.NAMES)
-revised_names=unique(AML_full$PROPOSED.NAMES)
+original_names=unique(AML_full$ORIGINAL.NAMES) #These are quick reads, do we use them later? Yes, need to fix future uses.
+revised_names=unique(AML_full$PROPOSED.NAMES) #These are quick reads, do we use them later? Yes, need to fix future uses.
 
 #Search by taxon and return matches. This yields a list of the length of the number of matches in AML's list. 
 
@@ -109,7 +108,7 @@ match_matrix=matrix(nrow=length(n_matches),ncol=max(n_matches,na.rm=TRUE))
 match_matrix=as.data.frame(match_matrix)
 
 for(i in 1:length(taxa_just$ORIG_TAXON)){
-  if(taxa_just$ORIG_TAXON[i]=="X"){
+  if(taxa_just$ORIG_TAXON[i]=="X"){ #God damn it! Dealing with this "X" bullshit again.
   } else {
     y=grep(taxa_just$FULL_TAXON[i],revised_names)
     if(length(y)==0){
