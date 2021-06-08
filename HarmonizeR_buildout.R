@@ -5,19 +5,26 @@
 #Requirements:
   #Character vector listing names of pollen records, must match file names for pollen data and taxa lists (i.e. FC000 = FC000_data.csv, FC000_taxa.csv). <------ Trying to imitate APD format here.
   #Master reference of accepted pollen types.
+  #List of special characters to split out names?
 
-
-
+###Needs to be able to work with or without the _taxa.csv file
+###Needs to be able to work with or without the original/suggested names.
+###Needs to work with direct exports from Tilia.
+###Can we program in a phase II process where data is aggregated and rewritten in a Tilia-friendly format?
 
 #Harmonizer function
 
-harmonizer=function(rec_names,master="AML_2015"){ #Function needs names of pollen records and a master list. ###consider repairing "rec_names" to something more sensible.
+harmonizer=function(rec_names,master_file,taxa_file=FALSE,Tilia_format=FALSE,APD_format=TRUE){ #Function needs names of pollen records and a master list. ###consider repairing "rec_names" to something more sensible.
   
   ###UNIVERSAL OBJECTS: MASTER POLLEN/MORPHOTYPE LIST
   
-  AML_full=read.csv("AML_base.csv",header=TRUE) ###CAK_edits #master file: need systematic naming convention and use across document.
-  original_names=unique(AML_full$ORIGINAL.NAMES) ###CAK_edits #master file: need systematic naming convention and use across document.
-  revised_names=unique(AML_full$PROPOSED.NAMES) ###CAK_edits #master file: need systematic naming convention and use across document.
+  master=read.csv(paste0(master_file),header=TRUE) ###CAK_edits #master file: need systematic naming convention and use across document.#Update to read current list from AML
+  if(APD_format==TRUE){
+    original_names=unique(master$ORIGINAL.NAMES) ###CAK_edits #master file: need systematic naming convention and use across document.
+    proposed_names=unique(master$PROPOSED.NAMES) ###CAK_edits #master file: need systematic naming convention and use across document.
+  } else {
+    proposed_names=unique(master$PROPOSED.NAMES) ###CAK_edits #master file: need systematic naming convention and use across document. #Other master documents NEED to have this title!
+  }
   
   ###COUNT TAXA AND PREPARE TABLES
   
@@ -25,11 +32,10 @@ harmonizer=function(rec_names,master="AML_2015"){ #Function needs names of polle
   fullname_length=vector(mode="numeric",length=1) #vector to track number of long names per record ###CAK_comment this validates that the _data and _taxa files are matched, keep it.
   
   for(i in 1:length(rec_names)){ #Read data and get taxa names from columns.
-    pol_data=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_data.csv"),header=TRUE) ###Pulling "X" which requires fix below.. ###CAK_EDITS #read file: fix file reading, note in README.md
+    pol_data=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_data.csv"),header=TRUE,row.names="X") ###Pulling "X" which requires fix below.. ###CAK_EDITS #read file: fix file reading, note in README.md
     pol_names=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_taxa.csv"),header=TRUE) 
     fullnames=pol_names$FullNames
     cn=colnames(pol_data)
-    cn=cn[-1] ###Here's the sloppy fix to the "X" problem. ###CAK_EDITS #read file: remove when above problem is fixed.
     name_length[i]=length(cn)
     fullname_length[i]=length(fullnames)
     if(name_length[i]-fullname_length[i]!=0){
@@ -45,19 +51,21 @@ harmonizer=function(rec_names,master="AML_2015"){ #Function needs names of polle
       #2) read tables, collect user validated data, and write new tables.
   
   #Use name_length to build out a matrix.
-  taxa_just=matrix(ncol=6,nrow=sum(name_length)) #Lumping everything together, right?
+  taxa_just=matrix(ncol=5,nrow=sum(name_length)) #Lumping everything together, right?
   taxa_just=as.data.frame(taxa_just)
-  colnames(taxa_just)=c("REC_no","CODE_APD","ORIG_TAXON","FULL_TAXON","SUGG_TAXON","POLL_TYPE") ###CAK_comment: we're committing to the final table form early on - should this go in phases?
+  colnames(taxa_just)=c("REC_no","CODE_APD","SHORT_TAXON","FULL_TAXON","COMMENT") ###CAK_comment: we're committing to the final table form early on - should this go in phases?
   ###CAK_EDITS #initial table: should include a "comment/suggestion" column where harmonizer leaves a note about what the problem may be.
   ###CAK_EDITS #initial table: we're not using SUGG_TAXON or POLL_TYPE in this table at all.
   
   for(i in 1:length(rec_names)){ #For loop reads each record and writes taxa names into it. 
     print(rec_names[i])
-    pol_data=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_data.csv"),header=TRUE)
-    taxa_full=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_taxa.csv"),header=TRUE)
+    pol_data=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_data.csv"),header=TRUE,row.names="X")
     cn=colnames(pol_data)
-    cn=cn[-1] #removing "X" ###CAK_EDITS #read file: remove when above problem is fixed.
-    fullnames=taxa_full$FullNames
+    
+    if(taxa_file==TRUE){
+      taxa_full=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_taxa.csv"),header=TRUE)
+      fullnames=taxa_full$FullNames
+    } else {}
     
     if(i==1){ #Adding numbers to track records
       begin=1
@@ -72,231 +80,212 @@ harmonizer=function(rec_names,master="AML_2015"){ #Function needs names of polle
     if(i==1){ #Adding record codes to list
       begin=1
       end=name_length[i]
-      taxa_just[begin:end,2]=rep(rec_names[i],name_length[i])
+      taxa_just[begin:end,2]=rep(rec_names[i],name_length[i]) ###Using APD Codes to name records!!!
     } else {
       begin=sum(name_length[1:(i-1)])+1
       end=sum(name_length[1:i])
       taxa_just[begin:end,2]=rep(rec_names[i],name_length[i])
     }
-    
-    if(i==1){ #Adding shortened names to matrix
-      begin=1
-      end=name_length[i]
-      taxa_just[begin:end,3]=c(cn)
-    } else {
-      begin=sum(name_length[1:(i-1)])+1
-      end=sum(name_length[1:i])
-      taxa_just[begin:end,3]=c(cn)
+    ###Need to update this to get flexibility in data formats - Tilia vs. Rioja exports...
+    if(taxa_file==TRUE){ #If we have a _taxa.csv file, write short names from the CodeNames entries
+      if(i==1){ #Adding shortened names to matrix
+        begin=1
+        end=name_length[i]
+        taxa_just[begin:end,3]=c(taxa_full$CodeNames)
+      } else {
+        begin=sum(name_length[1:(i-1)])+1
+        end=sum(name_length[1:i])
+        taxa_just[begin:end,3]=c(taxa_full$CodeNames)
+      }
+    } else { #If there's no _taxa.csv file, then we don't do anything now and derive short names later...
     }
     
-    if(i==1){ #Adding full names to matrix
-      begin=1
-      end=name_length[i]
-      taxa_just[begin:end,4]=c(fullnames)
-    } else {
-      begin=sum(name_length[1:(i-1)])+1
-      end=sum(name_length[1:i])
-      taxa_just[begin:end,4]=c(fullnames)
+    if(taxa_file==TRUE){ #We write the taxa_just matrix differently depending on what's available... ###CAK 7.6.2021 If we have the taxa file we write it from fullnames.
+      if(i==1){ #Adding full names to matrix
+        begin=1
+        end=name_length[i]
+        taxa_just[begin:end,4]=c(fullnames)
+      } else {
+        begin=sum(name_length[1:(i-1)])+1
+        end=sum(name_length[1:i])
+        taxa_just[begin:end,4]=c(fullnames)
+      }
+    } else { #IF there's no _taxa.csv file, treat the column names as the long names.
+      if(i==1){ #Adding names to matrix from column names
+        begin=1
+        end=name_length[i]
+        taxa_just[begin:end,4]=c(cn)
+      } else {
+        begin=sum(name_length[1:(i-1)])+1
+        end=sum(name_length[1:i])
+        taxa_just[begin:end,4]=c(cn)
+      }
     }
+    
+    
   } #End for loop pulling names and writing into combined table.
   
+  ###NEED PROCESS TO GET SHORT NAMES BASED ON SPECIAL CHARACTERS ##CAK 7.6.2021
+  
+  if(taxa_file==FALSE){ #If there's no taxa file, go ahead and make short names with the long ones available
+    short_names=sub('\\ .*|\\_.*|\\/.*|\\-.*','',taxa_just$FULL_TAXON)
+    taxa_just[,2]=short_names
+  } else { #If there is a taxa file, go ahead and clean up the short names available
+    taxa_just$SHORT_TAXON=sub('\\ .*|\\_.*|\\/.*|\\-.*','',taxa_just$SHORT_TAXON)
+  }
+
   ###MATCHING LISTED TAXA WITH MASTER LIST: SETTING UP MATCHING MATRICES
   
   n_matches=vector("numeric",length=length(taxa_just$ORIG_TAXON)) #tracking how many matches there are for each taxon, will pull the max value to size the matrix into which results are written.
   
-  for(i in 1:length(taxa_just$ORIG_TAXON)){ #Looking for matches
-    ###CAK EDITS #Cleanup: looks like the code below was written to deal with "X" entries - check that this is resolved and delete.
-    #if(taxa_just$ORIG_TAXON[i]=="X"){
-    #  y=NA
-    #  n_matches[i]=y
-    #} else {
-    y=grep(taxa_just$FULL_TAXON[i],revised_names) #Use grep to search taxon names in AML's list
-    z=grep(taxa_just$FULL_TAXON[i],original_names) #Use grep to search taxon names in AML's list
-    
-    if(length(y)>length(z)){ #I want to take the larger of the two lists of matches...
-      n_matches[i]=length(y) #...and write it into the n_matches vector.
+  for(i in 1:nrow(taxa_just)){ #Defining size of matrix by maximum length of matches.
+    if(APD_format==TRUE){
+      y=grep(taxa_just$SHORT_TAXON[i],proposed_names) #Use grep to search taxon names in AML's list
+      z=grep(taxa_just$SHORT_TAXON[i],original_names) #Use grep to search taxon names in AML's list
+      
+      if(length(y)>length(z)){ #I want to take the larger of the two lists of matches...
+        n_matches[i]=length(y) #...and write it into the n_matches vector.
+      } else {
+        n_matches[i]=length(z)
+      }
+      
     } else {
-      n_matches[i]=length(z)
+      y=grep(taxa_just$SHORT_TAXON[i],proposed_names) #Use grep to search taxon names in master list
+      n_matches[i]=length(y)
     }
-    #print(y)
-    #}
+    
   } #end of loop searching by taxon
   
   ###SEARCHING TAXON NAMES AND WRITING MATCH MATRIX
   ###CAK_EDITS #Reading and matching efficiency: there's several improvements in the original script that haven't been collapsed...
   ###This is the first sweep, need to be specific about the order
     ###Alternatively, I could collapse the different searches into this one loop...
+    ###Other loops are all designed to find and correct missing aspects of this loop!
   
   match_matrix=matrix(nrow=length(n_matches),ncol=max(n_matches,na.rm=TRUE))
   match_matrix=as.data.frame(match_matrix)
   
-  for(i in 1:length(taxa_just$ORIG_TAXON)){ #For loop searching for original taxa names, and matching them to revised names.
-    if(taxa_just$ORIG_TAXON[i]=="X"){ #God damn it! Dealing with this "X" bullshit again.
-    } else {
-      y=grep(taxa_just$FULL_TAXON[i],revised_names)
-      if(length(y)==0){ #If there's no matches, y is NA and has no length.
-        match_matrix[i,]=rep(NA,ncol(match_matrix)) #Write in NAs....
-      } else { #If there are matches y will be >0...
-        for(j in 1:length(y)){ #For loop to handle multiple matches.
-          match_matrix[i,j]=revised_names[y[j]] #And we want to write each of those matches to the matrix.
-        } #End of for loop handling mutliple matches
-      }
-    }
-  } #End of loop matching orignal and revised names
+  ###Need to accommodate variation in data submitted - should be able to run on just a list of names from a data table...
   
-  ###BRIDGING CODE AND TESTING FOR ERRORS
-    ###CAK_EDITS #Code cleanup: this code was used to help me figure out past errors, can it be incorporated into feedback or other code chunks?
-  
-  length_pull=c(1:length(match_matrix$V1)) #Needed a numeric list of the positions.
-  missing_positions=length_pull[is.na(match_matrix$V1)] #Using NAs to create list of positions.
-  missing_length=vector(mode="numeric",length=length(missing_positions)) #Make a vector in which to write the number of matches.
-  rev_missing_length=vector(mode="numeric",length=length(missing_positions)) #Make a vector to write the number of matches in the revised names column.
-  
-  #Running through the list, searching for matches, and writing the number of matches to a vector.
-  for(i in 1:length(missing_positions)){
-    
-    y=grep(taxa_just$ORIG_TAXON[missing_positions[i]],original_names)
-    missing_length[i]=length(y)
-    
-    #x=revised_names[y]
-    #print(y)
-    #print(x)
-    
-  }
-  
-  #General observation is that some of these have quite a few matches (up to 32 for "Composit").
-  #Need to take lists of matches, pull the revised columns, and then see how many unique values there are.
-  
-  #So, we make another matrix for these values and fill it with the suggestions.
-  
-  missing_matrix=matrix(nrow=length(missing_positions),ncol=max(missing_length,na.rm=TRUE)) #Tracking positions of the matches
-  missing_matrix=as.data.frame(missing_matrix)
-  miss_names_matrix=matrix(nrow=length(missing_positions),ncol=max(missing_length,na.rm=TRUE)) #Tracking names of matches
-  miss_names_matrix=as.data.frame(miss_names_matrix)
-  sugg_miss_names=matrix(nrow=length(missing_positions),ncol=max(missing_length,na.rm=TRUE))
-  sugg_miss_names=as.data.frame(sugg_miss_names)
-  
-  #Now, we search for the missing names in the original column (code names!?) and write them in the matrix.
-  
-  for(i in 1:length(missing_positions)){
-    if(taxa_just$ORIG_TAXON[missing_positions[i]]=="X"){
-      y=NA
-      missing_matrix[i,]=rep(y,ncol(missing_matrix))
-    } else {
-      y=grep(taxa_just$FULL_TAXON[missing_positions[i]],AML_full$ORIGINAL.NAMES)
-      if(length(y)==0){
-        missing_matrix[i,]=rep(NA,ncol(missing_matrix))
-        miss_names_matrix[i,]=rep(NA,ncol(miss_names_matrix))
-        sugg_miss_names[i,]=rep(NA,ncol(sugg_miss_names))
-      } else {
-        for(j in 1:length(y)){
-          missing_matrix[i,j]=y[j]
-          miss_names_matrix[i,j]=AML_full$ORIGINAL.NAMES[y[j]]
-          sugg_miss_names[i,j]=AML_full$PROPOSED.NAMES[y[j]]
+  if(APD_format==TRUE){ #If we're working with APD format, then we can search both original and proposed names from AML's list.
+    for(i in 1:nrow(taxa_just)){ #For loop searching for original taxa names, and matching them to revised names.
+      y=grep(taxa_just$FULL_TAXON[i],proposed_names) #Starting with ideal match - full name to revised name in AMLs list. ###NAMING OF MASTER LIST ITEMS FOR PORTABILITY?
+      if(length(y)==0){ #If there's no matches, let's try our second-tier match - full name to an original name
+        y=grep(taxa_just$FULL_TAXON[i],original_names) ###ONLY POSSIBLE WITH AML'S LIST - LOGICAL CONTROL FOR THIS?
+        if(length(y)==0){ #If we come up short on our second-tier match, then we try our third tier - the short names.
+          y=grep(taxa_just$SHORT_TAXON[i],proposed_names)
+          if(length(y)==0){ #If we come up short on our third-tier match, then we try our fourth tier - short names vs. original taxa
+            y=grep(taxa_just$SHORT_TAXON[i],original_names)
+            if(length(y)==0){ #If our last match should fail..
+              match_matrix[i,]=NA #Write in NA for suggestions
+              taxa_just$COMMENT[i]="no match, check spelling" ###Write in suggestion
+            } else { #If our fourth tier search succeeds...
+              for(j in 1:length(y)){ #For loop to handle multiple matches.
+                z=grep(original_names[y[j]],master$ORIGINAL.NAMES)
+                match_matrix[i,j]=master$PROPOSED.NAMES[z[j]] #And we want to write each of those matches to the matrix.
+              }
+              taxa_just$COMMENT[i]="update taxonomy, revise upwards?" ###Write in suggestion
+            }
+          } else { #If we succeed at our third tier match, then we write it.
+            for(j in 1:length(y)){ #For loop to handle multiple matches.
+              match_matrix[i,j]=proposed_names[y[j]] #And we want to write each of those matches to the matrix.
+            }
+            taxa_just$COMMENT[i]="revise upwards?"  ###Write in suggestion
+          }
+        } else { #If we succeed at second tier, write it
+          for(j in 1:length(y)){ #For loop to handle multiple matches.
+            z=grep(original_names[y[j]],master$ORIGINAL.NAMES)
+            match_matrix[i,j]=master$PROPOSED.NAMES[z[j]] #And we want to write each of those matches to the matrix.
+          }
+          taxa_just$COMMENT[i]="old taxon, update taxonomy"  ###Write in suggestion
+        }
+      } else { #If there are matches y will be >0 and we write the results
+        #Can we refine this a bit further - exact matches with nomenclatural differences?
+        z=grep(paste0('^',taxa_just$FULL_TAXON[i],'$'),proposed_names[y]) #Search for exact match!
+        if(length(z)==0){ #if no exact match...
+          z=grep(paste0('^',taxa_just$FULL_TAXON[i],'-type','$'),proposed_names[y]) #Try searching for "-type" variations
+          if(length(z)==0){ #if appending "-type" doesn't do anything...
+            for(j in 1:length(y)){ #For loop to handle multiple matches.
+              match_matrix[i,j]=proposed_names[y[j]] #And we want to write each of those matches to the matrix.
+            } #End of for loop handling mutliple matches
+            taxa_just$COMMENT[i]="close! check nomenclature"  ###Write in suggestion
+          } else { #If appending "=type" does work
+            match_matrix[i,1]=proposed_names[y[z]]
+            taxa_just$COMMENT[i]="match! is -type appropriate?"  ###Write in suggestion
+          }
+        } else { #If there's an exact match of the full name then write it!
+          match_matrix[i,1]=proposed_names[y[z]]
+          taxa_just$COMMENT[i]="match! good job"  ###Write in suggestion
         }
       }
-    }
-  }
+    } #End of loop matching original and revised names
+    
+  } else { #If we're not using the APD format, then searching could be a bit simpler
   
-  #This works and it creates three matrices: one with positions, one with names of the matched taxa, and one with suggested names. 
-  #Coverage still isn't perfect, still getting plenty of NAs.
-  
-  replace_length=vector(length=length(missing_positions))
-  
-  for(i in 1:nrow(sugg_miss_names)){
-    names=unique(c(sugg_miss_names[i,]))
-    replace_length[i]=length(names)
-  }
-  
-  #Okay, now we know how many potential suggested names may exist for the names without direct matches in the revised names column.
-  #We also know that it will fit in the matrix we've already got going for the matches ###What if it doesn't? 
-  
-  #Write the suggested missing names in the original NA positions.
-  
-  for(i in 1:length(missing_positions)){
-    y=unique(c(sugg_miss_names[i,]))
-    for(j in 1:length(replace_length[i])){
-      match_matrix[missing_positions[i],j+1]=y[j]
-    }
-  }
-  
-  #So far, so good.
-  #Revised the missing position code above to re-evaluate.
-  
-  length_rev=c(1:length(match_matrix$V1)) #Needed a numeric list of the positions.
-  revmiss_positions=length_pull[is.na(match_matrix$V1)] #Using NAs to create list of positions.
-  
-  #We've gone from 409 NAs to 148, so what's left?
-  
-  mismatches=match_matrix[revmiss_positions,1]
-  
-  #What's left is mostly "X"s, "Chron"s, taxa names tagged with numbers (e.g., "Legumino.1"), and misspelled taxa (e.g., "Syzgi", as opposed to "Syzygium").
-  #At this point it is possible to fix all of these manually, especially after we exclude the types we need to reject ("X","Chron","indet").
-  
-  write.table(match_matrix,file="matched_taxa_AML-APD.csv",sep=",",col.names=TRUE)
-  
-  #Noting here that I somehow ignored the full name listings available with every record.
-  #Searching by the full name brings the unmatched names down to 83 entries.
-  #I've also cut out the "X" entries while reading the files.
-  
-  #Updated the list to include all of the marine taxa. Now, we can trace everything back and make corrections in the original files.
-  #Looking at the original tables, we've got a number of simple formatting errors. 
-  
-  #My preference is not to spend a lot of time modifying the original data, so there aren't multiple versions of the original APD files running around.
-  
-  
-  repair_tracker=revmiss_positions
-  
-  #Can we scan the shortened names and fill in some of these? It seems likely.
-  
-  problem_entries=taxa_just[repair_tracker,]
-  
-  #write.table(problem_entries,file="problem_entries_AML-APD.csv",sep=",",col.names=TRUE,row.names=FALSE)
-  
-  #Refining list using code names (they search a little easier than some full names)
-  
-  for(i in 1:length(repair_tracker)){
-    y=grep(taxa_just$ORIG_TAXON[repair_tracker[i]],revised_names)
-    if(length(y)==0){
-      y=grep(taxa_just$ORIG_TAXON[repair_tracker[i]],original_names)
-      if(length(y)>0){
-        for(j in 1:length(y)){
-          z=grep(original_names[y[j]],AML_full$ORIGINAL.NAMES)
-          match_matrix[repair_tracker[i],j+1]=AML_full$PROPOSED.NAMES[z[1]]
+    for(i in 1:nrow(taxa_just)){ #For loop searching for original taxa names, and matching them to revised names.
+      y=grep(taxa_just$FULL_TAXON[i],proposed_names) #Starting with ideal match - full name to revised name in AMLs list. ###NAMING OF MASTER LIST ITEMS FOR PORTABILITY?
+      if(length(y)==0){ #If there's no matches, let's try our second-tier match - full name to an original name
+        y=grep(taxa_just$SHORT_TAXON[i],proposed_names) ###ONLY POSSIBLE WITH AML'S LIST - LOGICAL CONTROL FOR THIS?
+        if(length(y)==0){ #If we come up short on our second-tier match, then we try our third tier - the short names.
+          match_matrix[i,]=NA #Write in NA for suggestions
+          taxa_just$COMMENT[i]="no match, check spelling" ###Write in suggestion
+        } else { #If we succeed at second tier, write it
+          for(j in 1:length(y)){ #For loop to handle multiple matches.
+            z=grep(proposed_names[y[j]],master$ORIGINAL.NAMES)
+            match_matrix[i,j]=master$PROPOSED.NAMES[z[j]] #And we want to write each of those matches to the matrix.
+          }
+          taxa_just$COMMENT[i]="old taxon, update taxonomy"  ###Write in suggestion
         }
-      } else {}
-    } else {
-      for(j in 1:length(y)){
-        match_matrix[repair_tracker[i],j+1]=revised_names[y[j]]
+      } else { #If there are matches y will be >0 and we write the results
+        #Can we refine this a bit further - exact matches with nomenclatural differences?
+        z=grep(paste0('^',taxa_just$FULL_TAXON[i],'$'),proposed_names[y]) #Search for exact match!
+        if(length(z)==0){ #if no exact match...
+          z=grep(paste0('^',taxa_just$FULL_TAXON[i],'-type','$'),proposed_names[y]) #Try searching for "-type" variations
+          if(length(z)==0){ #if appending "-type" doesn't do anything...
+            for(j in 1:length(y)){ #For loop to handle multiple matches.
+              match_matrix[i,j]=proposed_names[y[j]] #And we want to write each of those matches to the matrix.
+            } #End of for loop handling mutliple matches
+            taxa_just$COMMENT[i]="close! check nomenclature"  ###Write in suggestion
+          } else { #If appending "=type" does work
+            match_matrix[i,1]=proposed_names[y[z]]
+            taxa_just$COMMENT[i]="match! is -type appropriate?"  ###Write in suggestion
+          }
+        } else { #If there's an exact match of the full name then write it!
+          match_matrix[i,1]=proposed_names[y[z]]
+          taxa_just$COMMENT[i]="match! good job"  ###Write in suggestion
+        }
       }
-    }
+    } #End of loop matching original and revised names
+    
   }
-  
-  length_rev=c(1:length(match_matrix$V1)) #Needed a numeric list of the positions.
-  revmiss_positions=length_pull[is.na(match_matrix$V1)] #Using NAs to create list of positions.
-  
   
   match_colnames=vector(mode="character",length=1)
   
-  for(i in 1:(ncol(match_matrix))-1){
+  for(i in 1:(ncol(match_matrix))){ 
     x=paste0("sugg_taxon_",i)
     match_colnames[i]=x
   }
   
-  match_colnames=c("Original Taxon",match_colnames)
-  
   colnames(match_matrix)=match_colnames
   
-  taxon_checklist=cbind(taxa_just,match_matrix)
+  output=cbind(taxa_just,match_matrix)
   
-    ###This is the end of a big section of code that needs to be tested & collapsed so that the function is smaller.
-    ###Most important job is to use "sweeps" and settings in the function to determine how this is done.
-  ###BRIDGING CODE AND TESTING FOR ERRORS
+  write.csv(output,file="harmonizeR_output.csv",row.names=FALSE)
   
-  write.table(taxon_checklist,file="Ngotto_taxon_checklist.csv",sep=",",col.names=TRUE) #Needs flexible file-naming
+  ###I THINK WE CAN MAKE ALL OF THE BELOW REDUNDANT.
+  ###WE DID IT! ONLY ABOUT 31 NAs
   
 } #Closing out function.
 
-#Test data and function runs.
 
-rec_names=c("FC000","FC300","FC400") #consider repairing "rec_names" to something more sensible.
+
+
+#Test data and function runs.
+rec_names=rec_names=c("FC000")#,"FC300","FC400")
+master_file="AML_base.csv" #UPDATE ME
+taxa_file="TRUE"
+Tilia_format=FALSE
+APD_format=TRUE
+
+
+harmonizer(rec_names,master_file,taxa_file=FALSE,APD_format=FALSE)
