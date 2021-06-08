@@ -3,19 +3,18 @@
 #The function is written in base R and has no dependencies.
 
 #Requirements:
-  #Character vector listing names of pollen records, must match file names for pollen data and taxa lists (i.e. FC000 = FC000_data.csv, FC000_taxa.csv). <------ Trying to imitate APD format here.
+  #Character vector listing names of pollen records, must match file names for pollen data and taxa lists (i.e. FC000 = FC000_data.csv, FC000_taxa.csv).
   #Master reference of accepted pollen types.
-  #List of special characters to split out names?
+  #Logical control of using _taxa.csv file for pollen names
+  #Logical control for using Tilia format <----- taxa as rows or columns
 
-###Needs to be able to work with or without the _taxa.csv file
-###Needs to be able to work with or without the original/suggested names.
-###Needs to work with direct exports from Tilia.
+###Needs to work with direct exports from Tilia.###Part of the way there...
 ###Can we program in a phase II process where data is aggregated and rewritten in a Tilia-friendly format?
 
 #Harmonizer function
 
 harmonizer=function(rec_names,master_file,taxa_file=FALSE,Tilia_format=FALSE,APD_format=TRUE){ #Function needs names of pollen records and a master list. ###consider repairing "rec_names" to something more sensible.
-  
+  path=getwd()
   ###UNIVERSAL OBJECTS: MASTER POLLEN/MORPHOTYPE LIST
   
   master=read.csv(paste0(master_file),header=TRUE) ###CAK_edits #master file: need systematic naming convention and use across document.#Update to read current list from AML
@@ -32,16 +31,18 @@ harmonizer=function(rec_names,master_file,taxa_file=FALSE,Tilia_format=FALSE,APD
   fullname_length=vector(mode="numeric",length=1) #vector to track number of long names per record ###CAK_comment this validates that the _data and _taxa files are matched, keep it.
   
   for(i in 1:length(rec_names)){ #Read data and get taxa names from columns.
-    pol_data=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_data.csv"),header=TRUE,row.names="X") ###Pulling "X" which requires fix below.. ###CAK_EDITS #read file: fix file reading, note in README.md
-    pol_names=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_taxa.csv"),header=TRUE) 
-    fullnames=pol_names$FullNames
+    pol_data=read.csv(paste0(path,'/data/',rec_names[i],"_data.csv"),header=TRUE,row.names="X") ###Pulling "X" which requires fix below.. ###CAK_EDITS #read file: fix file reading, note in README.md
     cn=colnames(pol_data)
     name_length[i]=length(cn)
-    fullname_length[i]=length(fullnames)
-    if(name_length[i]-fullname_length[i]!=0){
-      print(paste0("Check names in ",rec_names[i]))
-    } else {
-      print(paste0("Taxa and Data files match, ",rec_names[i]))
+    if(taxa_file==TRUE){
+      pol_names=read.csv(paste0(path,'/data/',rec_names[i],"_taxa.csv"),header=TRUE) 
+      fullnames=pol_names$FullNames
+      fullname_length[i]=length(fullnames)
+      if(name_length[i]-fullname_length[i]!=0){
+        print(paste0("Check names in ",rec_names[i]))
+      } else {
+        print(paste0("Taxa and Data files match, ",rec_names[i]))
+      }
     }
   } #Close for loop to track names per record.
   
@@ -59,11 +60,11 @@ harmonizer=function(rec_names,master_file,taxa_file=FALSE,Tilia_format=FALSE,APD
   
   for(i in 1:length(rec_names)){ #For loop reads each record and writes taxa names into it. 
     print(rec_names[i])
-    pol_data=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_data.csv"),header=TRUE,row.names="X")
+    pol_data=read.csv(paste0(path,'/data/',rec_names[i],"_data.csv"),header=TRUE,row.names="X")
     cn=colnames(pol_data)
     
     if(taxa_file==TRUE){
-      taxa_full=read.csv(paste0("pollen/Ngotto/",rec_names[i],"_taxa.csv"),header=TRUE)
+      taxa_full=read.csv(paste0(path,'/data/',rec_names[i],"_taxa.csv"),header=TRUE)
       fullnames=taxa_full$FullNames
     } else {}
     
@@ -270,6 +271,10 @@ harmonizer=function(rec_names,master_file,taxa_file=FALSE,Tilia_format=FALSE,APD
   
   output=cbind(taxa_just,match_matrix)
   
+  count_NA=table(is.na(output$sugg_taxon_1))
+  
+  print(paste0(count_NA[2],' unmatched taxa'))
+  
   write.csv(output,file="harmonizeR_output.csv",row.names=FALSE)
   
   ###I THINK WE CAN MAKE ALL OF THE BELOW REDUNDANT.
@@ -288,4 +293,4 @@ Tilia_format=FALSE
 APD_format=TRUE
 
 
-harmonizer(rec_names,master_file,taxa_file=FALSE,APD_format=FALSE)
+harmonizer(rec_names,master_file,taxa_file=TRUE,APD_format=FALSE)

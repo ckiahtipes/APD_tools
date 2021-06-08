@@ -9,11 +9,17 @@ This function is intended to help data stewards (and paleoecologists in general)
 
 This is designed to work in a two-phase process.
 
-First, users take their data (or APD data) and run it against the master morphotype list. This returns a list of matches, suggestions, and taxa without any matches.
+First, users take their data (or APD data) and run it against a master morphotype list. This returns a table where rows are taxa by record and the columns are:
+  1- Original name(s) of the taxon.
+  2- Commentary from the function (coded for a range of likely errors).
+  3- A list of suggestions based on the quality of the match with the master list
 
 Second, users validate taxa on their own using online databases (tropicos.org or African Plants Database) and save this updated file.
 
-Third, users can then use the code to write a new table with the harmonized data.
+
+
+Third, users can read this new data and write new results with updated names.
+
 
 #Goals
 
