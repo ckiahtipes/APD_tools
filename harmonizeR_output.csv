@@ -1,144 +1,430 @@
-"REC_no","CODE_APD","SHORT_TAXON","FULL_TAXON","COMMENT","sugg_taxon_1","sugg_taxon_2","sugg_taxon_3","sugg_taxon_4","sugg_taxon_5","sugg_taxon_6","sugg_taxon_7","sugg_taxon_8","sugg_taxon_9","sugg_taxon_10","sugg_taxon_11","sugg_taxon_12","sugg_taxon_13","sugg_taxon_14","sugg_taxon_15","sugg_taxon_16","sugg_taxon_17","sugg_taxon_18","sugg_taxon_19","sugg_taxon_20","sugg_taxon_21","sugg_taxon_22","sugg_taxon_23","sugg_taxon_24","sugg_taxon_25","sugg_taxon_26","sugg_taxon_27","sugg_taxon_28","sugg_taxon_29","sugg_taxon_30","sugg_taxon_31","sugg_taxon_32","sugg_taxon_33","sugg_taxon_34","sugg_taxon_35","sugg_taxon_36","sugg_taxon_37","sugg_taxon_38","sugg_taxon_39","sugg_taxon_40","sugg_taxon_41","sugg_taxon_42","sugg_taxon_43","sugg_taxon_44","sugg_taxon_45","sugg_taxon_46","sugg_taxon_47","sugg_taxon_48","sugg_taxon_49","sugg_taxon_50","sugg_taxon_51","sugg_taxon_52","sugg_taxon_53","sugg_taxon_54","sugg_taxon_55","sugg_taxon_56","sugg_taxon_57","sugg_taxon_58","sugg_taxon_59","sugg_taxon_60","sugg_taxon_61","sugg_taxon_62","sugg_taxon_63","sugg_taxon_64","sugg_taxon_65","sugg_taxon_66","sugg_taxon_67","sugg_taxon_68","sugg_taxon_69","sugg_taxon_70","sugg_taxon_71","sugg_taxon_72","sugg_taxon_73","sugg_taxon_74","sugg_taxon_75","sugg_taxon_76","sugg_taxon_77","sugg_taxon_78"
-1,"FC300","Sessuvium","Sessuvium","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Bucholzia","Bucholzia","old taxon, update taxonomy","Buchholzia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Leptaulus","Leptaulus","match! good job","Leptaulus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Afzelia","Afzelia","match! good job","Afzelia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Piliostigma","Piliostigma","match! good job","Piliostigma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Dichrostachys","Dichrostachys","match! good job","Dichrostachys",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Lamiaceae","Lamiaceae undiff.","match! good job","Lamiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Ochna","Ochna","match! good job","Ochna",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Securidaca","Polygala_Securidaca","revise upwards?","Securidaca-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Psydrax","Keetia_Psydrax","revise upwards?","Psydrax-type arnoldiana","Psydrax-type schimperiana","Psydrax-type subcordata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Holoptela","Holoptela grandis","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Balanites","Balanites","match! good job","Balanites",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Fagonia","Fagonia","match! good job","Fagonia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Heliotropium","Heliotropium","match! good job","Heliotropium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Brassicaceae","Brassicaceae undiff.","match! good job","Brassicaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Convolvulaceae","Convolvulaceae undiff.","match! good job","Convolvulaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Indigofera","Indigofera","match! good job","Indigofera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Lotus","Lotus","match! good job","Lotus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Adenia","Adenia","match! good job","Adenia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Plantago","Plantago","match! good job","Plantago",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Spermacoce","Spermacoce_Diodia","revise upwards?","Spermacoce-type","Spermacoce-type chaetocephala","Spermacoce-type hepperana","Spermacoce-type latifolia","Spermacoce-type radiata","Spermacoce-type ruelliae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Xyris","Xyris","match! good job","Xyris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Sabicea","Sabicea","match! good job","Sabicea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Cardiospermum","Cardiospermum","match! good job","Cardiospermum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Amaranthaceae","Amaranthaceae_Chenopodiaceae undiff.","revise upwards?","Amaranthaceae undiff.","Amaranthaceae/Caryophyllaceae undiff.","Amaranthaceae/Chenopodiaceae undiff.","Amaranthaceae/Chenopodiaceae/Caryophyllaceae undiff.","Caryophyllaceae/Amaranthaceae undiff.","Caryophyllaceae/Chenopodiaceae/Amaranthaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Landolphia","Alstonia_Landolphia","revise upwards?","Landolphia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Tabernaemontana","Tabernaemontana","match! good job","Tabernaemontana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Ilex","Ilex mitis","match! good job","Ilex mitis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Bignoniaceae","Bignoniaceae Undiff.","revise upwards?","Bignoniaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Canarium","Canarium schweinfurthii","revise upwards?","Canarium-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Tessmannia","Tessmannia","match! good job","Tessmannia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Mammea","Mammea africana-type","match! good job","Mammea africana-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Allanblackia","Allanblackia","match! good job","Allanblackia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Aneulophus","Aneulophus","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Anthostema","Anthostema","match! is -type appropriate?","Anthostema-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Thecacoris","Antidesma_Thecacoris","revise upwards?","Thecacoris-type","Thecacoris-type leptobotrya","Thecacoris-type stenopetala",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Martretia","Martretia","close! check nomenclature","Martretia quadricornis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Baphia","Baphia_Millettia","revise upwards?","Baphia/Millettia","Baphia-type","Baphia-type capparidifolia","Baphia-type nitida",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Xylia","Xylia-type","match! good job","Xylia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Caloncoba","Caloncoba-type","match! good job","Caloncoba-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Kirkia","Kirkia","match! good job","Kirkia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Antiaris","Antiaris_Milicia_Morus","revise upwards?","Antiaris toxicaria/Milicia","Antiaris-type toxicaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Ongokea","Ongokea gore","match! good job","Ongokea gore",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Strombosia","Strombosia","match! good job","Strombosia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Panda","Panda oleosa","match! good job","Panda oleosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Medusandra","Medusandra","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Coffea","Coffea","match! good job","Coffea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Ixora","Ixora-type","match! good job","Ixora-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Teclea","Teclea_Vepris","revise upwards?","Teclea-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Lecaniodiscus","Aphania_Lecaniodiscus","revise upwards?","Lecaniodiscus/Aphania senegalensis","Lecaniodiscus-type","Lecaniodiscus-type cupanioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Ganophyllum","Ganophyllum-type giganteum","match! good job","Ganophyllum-type giganteum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Paullinia","Paullinia pinnata","match! good job","Paullinia pinnata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Zanha","Zanha","match! good job","Zanha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Triplochiton","Triplochiton","match! good job","Triplochiton",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Mangifera","Mangifera type","revise upwards?","Mangifera indica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Asteraceae","Asteraceae","close! check nomenclature","Asteraceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Bombax","Bombax","match! good job","Bombax",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Ceiba","Ceiba pentandra","match! good job","Ceiba pentandra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Discoglypremna","Discoglypremna caloneura","match! good job","Discoglypremna caloneura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Tephrosia","Tephrosia","match! good job","Tephrosia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Acacia","Acacia","match! good job","Acacia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Premna","Premna","match! is -type appropriate?","Premna-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Rumex","Rumex","match! good job","Rumex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Morinda","Morinda lucida-type","match! good job","Morinda lucida-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Dichostemma","Dichostemma","close! check nomenclature","Dichostemma-type glaucescens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Gilbertiodendron","Gilbertiodendron_Isomacrolobium_Isoberlinia_Berlinia_Pelligriniodendron","revise upwards?","Gilbertiodendron-type","Gilbertiodendron-type mayombense",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Irvingia","Irvingia_Klainedoxa","revise upwards?","Irvingiaceae undiff.","Irvingia-type","Irvingia-type gabonensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Scaphopetalum","Scaphopetalum","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Prunus","Prunus","match! good job","Prunus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Craterispermum","Craterispermum","match! good job","Craterispermum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Rinorea","Rinorea","match! good job","Rinorea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Loranthaceae","Loranthaceae undiff.","match! good job","Loranthaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Moraceae","Moraceae Undiff.","revise upwards?","Moraceae undiff.","Moraceae/Trema","Urticaceae/Moraceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Phyllantheae","Phyllantheae undiff.","match! good job","Phyllantheae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Sapindaceae","Sapindaceae undiff.","match! good job","Sapindaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Vitaceae","Vitaceae undiff.","match! good job","Vitaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Aidia","Aidia_Catunaregam","revise upwards?","Aidia-type","Aidia-type micrantha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Croton","Croton_Crotonogyne_Jatropha_Manniophyton_Neoboutonia","revise upwards?","Croton/Jatropha","Croton/Neoboutonia","Crotoneae undiff.","Crotonogyne-type","Croton-type","Croton-type macrostachyus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Dialium","Dialium","match! good job","Dialium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Drypetes","Drypetes_Shirakia","revise upwards?","Drypetes-type","Drypetes-type afzelii","Drypetes-type caustica","Drypetes-type floribunda","Drypetes-type gilgiana","Drypetes-type gossweileri","Drypetes-type laciniata","Drypetes-type molunduana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Pterocarpus","Machaerium_Ormocarpum_Pterocarpus","revise upwards?","Pterocarpus-type","Pterocarpus-type angolensis","Pterocarpus-type erinaceus","Pterocarpus-type lucens","Pterocarpus-type santalinoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Meliaceae","Meliaceae undiff.","match! good job","Meliaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Nesogordonia","Nesogordonia","match! good job","Nesogordonia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Olax","Olax","match! good job","Olax",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Parinari","Parinari","match! is -type appropriate?","Parinari-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Symphonia","Symphonia globulifera","match! good job","Symphonia globulifera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Allophylus","Allophylus","match! good job","Allophylus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Celtis","Celtis","match! good job","Celtis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Pycnanthus","Pycnanthus","match! good job","Pycnanthus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Zanthoxylum","Zanthoxylum","match! is -type appropriate?","Zanthoxylum-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Blighia","Blighia","match! good job","Blighia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Bridelia","Bridelia_Cleistanthus","revise upwards?","Bridelia ferruginea-type","Bridelia micrantha-type","Bridelia-type","Bridelia-type scleroneura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Capparis","Capparis","match! good job","Capparis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Sterculia","Cola_Sterculia","revise upwards?","Sterculiaceae undiff.","Sterculia-type","Sterculia-type setigera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Detarium","Detarium","match! good job","Detarium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Diospyros","Diospyros","match! good job","Diospyros",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Dracaena","Dracaena","match! good job","Dracaena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Euphorbia","Elaeophorbia_Euphorbia","revise upwards?","Euphorbiaceae undiff.","Euphorbia-type","Euphorbia-type abyssinica","Euphorbia-type acalyphoides","Euphorbia-type forskalii","Euphorbia-type glomerifica","Euphorbia-type hirta","Euphorbia-type indica","Euphorbia-type pulcherrima","Euphorbia-type terracina","Euphorbia-type tirucalli",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Erythrococca","Erythrococca_Micrococca","revise upwards?","Erythrococca-type","Erythrococca-type africana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Syzygium","Eugenia_Syzygium","revise upwards?","Eucalyptus/Syzygium","Eugenia/Syzygium","Syzygium-type","Syzygium-type guineense","Syzygium-type staudtii",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Fabaceae","Fabaceae - Caesalpiniaceae undiff.","revise upwards?","Fabaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Ficus","Ficus","match! good job","Ficus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Hymenocardia","Hymenocardia","match! good job","Hymenocardia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Vitex","Vitex","match! is -type appropriate?","Vitex-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Copaifera","Cassia_Cynometra_Erythrophleum_Copaifera_Monopetalanthus","revise upwards?","Copaifera-type","Copaifera-type salikounda",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Entada","Entada_Prosopis_Piptadeniastrum","revise upwards?","Entada/Piptadeniastrum","Entada/Prosopis","Entada-type","Entada-type abyssinica","Entada-type gigas",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Manilkara","Manilkara-type","match! good job","Manilkara-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Mimusops","Mimusops","match! is -type appropriate?","Mimusops-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Pandanus","Pandanus","match! good job","Pandanus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Pseudospondias","Rhus_Anthrocaryon_Pseudospondias","revise upwards?","Pseudospondias-type","Pseudospondias-type microcarpa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Uapaca","Uapaca","match! good job","Uapaca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Phoenix","Phoenix","match! good job","Phoenix",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Raphia","Raphia","match! good job","Raphia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Alchornea","Alchornea","match! good job","Alchornea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Combretaceae","Combretaceae undiff.","match! good job","Combretaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Lophira","Lophira alata","match! is -type appropriate?","Lophira alata-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Cyperaceae","Cyperaceae undiff.","match! good job","Cyperaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Nymphaea","Nymphaea","match! good job","Nymphaea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Typha","Typha","match! good job","Typha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Nauclea","Corynanthe_Hallea_Hymenodictyon_Mitragyna inermis_Nauclea_Pausinystalia_Sarcocephalus_Uncaria","revise upwards?","Nauclea/Hymenodictyon","Nauclea/Mitragyna","Naucleae undiff.","Nauclea-type","Nauclea-type latifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Elaeis","Elaeis guineensis","match! good job","Elaeis guineensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Macaranga","Macaranga_Mallotus_Mareya","revise upwards?","Macaranga-type","Macaranga-type barteri","Macaranga-type beillei","Macaranga-type capensis","Macaranga-type hurifolia","Macaranga-type monandra","Macaranga-type spinosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Myianthus","Myianthus_Musanga","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Spathodea","Spathodea","close! check nomenclature","Spathodea-type campanulata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Tetrorchidium","Tetrorchidium","match! good job","Tetrorchidium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Trema","Trema","close! check nomenclature","Moraceae/Trema","Celtis/Trema","Trema-type orientalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Anthocleista","Anthocleista grandiflora","match! is -type appropriate?","Anthocleista grandiflora-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Borassus","Borassus_Hyphaene","revise upwards?","Borassus/Hyphaene","Borassus-type aethiopum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Hannoa","Hannoa","match! good job","Hannoa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Lannea","Lannea_Sclerocarya","revise upwards?","Lannea/Sclerocarya","Lannea-type","Lannea-type acida",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Pouteria","Pouteria","match! is -type appropriate?","Pouteria-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Zizyphus","Zizyphus","old taxon, update taxonomy","Ziziphus-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Gramineae","Gramineae Undiff.","update taxonomy, revise upwards?","Poaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Celastraceae","Celastraceae_Hippocrateaceae undiff.","revise upwards?","Celastraceae undiff.","Celastraceae/Hippocrateaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Tiliacora","Stephania_Tiliacora","revise upwards?","Tiliacora-type","Tiliacora-type funifera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Annonaceae","Annonaceae Undiff.","revise upwards?","Annonaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Malvaceae","Malvaceae - Tiliaceae undiff.","revise upwards?","Malvaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Palmae","Palmae Undiff.","revise upwards?","Palmae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Rubiaceae","Rubiaceae undiff.","match! good job","Rubiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Indet","Indeterminate/NID","revise upwards?","Indeterminable",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","volume","volume (ml)","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Lyco","Lycopodium added","revise upwards?","Lycopodiaceae undiff.","Lycopodiella cernua-type","Lycopodium","Lycopodium clavatum-type","Lycopodium strictum-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-1,"FC300","Lyco","Lycopodium (tracer)","revise upwards?","Lycopodiaceae undiff.","Lycopodiella cernua-type","Lycopodium","Lycopodium clavatum-type","Lycopodium strictum-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"REC_no","CODE_APD","SHORT_TAXON","FULL_TAXON","COMMENT","sugg_taxon_1","sugg_taxon_2","sugg_taxon_3","sugg_taxon_4","sugg_taxon_5","sugg_taxon_6","sugg_taxon_7","sugg_taxon_8","sugg_taxon_9","sugg_taxon_10","sugg_taxon_11","sugg_taxon_12","sugg_taxon_13","sugg_taxon_14"
+1,"FC000","Bucholzia","Bucholzia","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Bridelia","Bridelia","match! is -type appropriate?","Bridelia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Parkia","Parkia","match! good job","Parkia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Hymenocardia","Hymenocardia","match! good job","Hymenocardia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Securidaca","Securidaca","match! is -type appropriate?","Securidaca-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Fagonia","Fagonia","match! good job","Fagonia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Lotus","Lotus","match! good job","Lotus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Sesamum","Sesamum","match! good job","Sesamum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Cyperaceae","Cyperaceae Undiff.","old taxon, update taxonomy","Cyperaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Typha","Typha","match! good job","Typha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Xyris","Xyris","match! good job","Xyris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Illigera","Illigera","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Tiliacora","Tiliacora funerifera","old taxon, update taxonomy","Tiliacora-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Cardiospermum","Cardiospermum","match! good job","Cardiospermum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Fernandoa","Fernandoa","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Canarium","Canarium schweinfurthii","old taxon, update taxonomy","Canarium-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Mammea","Mammea","close! check nomenclature","Mammea africana-type","Mammea/Pentadesma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Symphonia","Symphonia globulifera","match! good job","Symphonia globulifera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Allablackia","Allablackia","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Aneulophus","Aneulophus","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Thecacorus","Antidesma/Thecacorus","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Croton","Croton/Crotonogyne/Jatropha/Manniophyton/Neoboutonia","old taxon, update taxonomy","Croton/Jatropha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Drypetes","Drypetes","match! is -type appropriate?","Drypetes-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Khaya","Khaya","match! is -type appropriate?","Khaya-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Olax","Olax","match! good job","Olax",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Panda","Panda","close! check nomenclature","Panda oleosa","Pandaceae undiff.","Pandanus","Pandanus candelabrum-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Eriocoelum","Eriocoelum","match! good job","Eriocoelum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Nesogordinia","Nesogordinia","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Triplochiton","Triplochiton scleroxylon","match! is -type appropriate?","Triplochiton scleroxylon-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Borassus","Borassus/Hyphaene","match! good job","Borassus/Hyphaene",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Elaeis","Elaeis guineensis","match! good job","Elaeis guineensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Palmae","Palmae Undiff.","old taxon, update taxonomy","Palmae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Lannea","Lannea","match! is -type appropriate?","Lannea-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Asteraceae","Asteraceae Undifferentiated.","old taxon, update taxonomy","Asteraceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Anthocleista","Anthocleista grandiflora","match! is -type appropriate?","Anthocleista grandiflora-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Premna","Premna","match! is -type appropriate?","Premna-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Morinda","Morinda citrifolia","old taxon, update taxonomy","Morinda",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Pouteria","Pouteria","match! is -type appropriate?","Pouteria-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Hannoa","Hannoa","match! good job","Hannoa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Casearia","Casearia","match! good job","Casearia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Berlinia","Berlinia","match! is -type appropriate?","Berlinia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Scaphopetalum","Scaphopetalum","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Pandanus","Pandanus","match! good job","Pandanus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Prunus","Prunus","match! good job","Prunus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Craterispermum","Craterispermum","match! good job","Craterispermum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Manilkara","Manilkara","match! is -type appropriate?","Manilkara-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Mimusops","Mimusops","match! is -type appropriate?","Mimusops-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Zanthoxylum","Zanthoxylum","match! is -type appropriate?","Zanthoxylum-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Allophylus","Allophylus","match! good job","Allophylus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Desplatsia","Desplatsia","match! is -type appropriate?","Desplatsia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Vitaceae","Vitaceae undiff.","match! good job","Vitaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Blighia","Blighia","match! good job","Blighia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Cola","Cola_Sterculia","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Dracaena","Dracaena","match! good job","Dracaena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Fabaceae","Fabaceae - Caesalpiniaceae undiff.","old taxon, update taxonomy","Fabaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Detarium","Detarium","match! good job","Detarium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Diospyros","Diospyros","match! good job","Diospyros",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Syzygium","Eugenia_Syzygium","old taxon, update taxonomy","Eucalyptus/Syzygium","Eugenia/Syzygium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Ficus","Ficus","match! good job","Ficus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Vitex","Vitex","match! is -type appropriate?","Vitex-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Brassicaceae","Brassicaceae Undifferentiated","old taxon, update taxonomy","Brassicaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Gramineae","Gramineae Undifferentiated","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Heliotropium","Heliotropium","match! good job","Heliotropium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Nymphaea","Nymphaea","match! good job","Nymphaea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Celastraceae","Celastraceae/Hippocrateaceae undiff.","match! good job","Celastraceae/Hippocrateaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Pterocarpus","Machaerium_Ormocarpum_Pterocarpus","old taxon, update taxonomy","Pterocarpus-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Dialium","Dialium","match! good job","Dialium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Kirkia","Kirkia","match! good job","Kirkia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Phoenix","Phoenix","match! good job","Phoenix",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Raphia","Raphia","match! good job","Raphia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Alchornea","Alchornea","match! good job","Alchornea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Macaranga","Macaranga_Mallotus_Mareya","old taxon, update taxonomy","Macaranga-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Nauclea","Corynanthe_Hallea_Hymenodictyon_Mitragyna inermis_Nauclea_Pausinystalia_Sarcocephalus_Uncaria","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Zizyphus","Zizyphus","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Trema","Trema","close! check nomenclature","Moraceae/Trema","Celtis/Trema","Trema-type orientalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Lophira","Lophira alata","match! is -type appropriate?","Lophira alata-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Pseudospondias","Rhus_Anthrocaryon_Pseudospondias","old taxon, update taxonomy","Pseudospondias-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Uapaca","Uapaca","match! good job","Uapaca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Combretaceae","Combretaceae undiff.","match! good job","Combretaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Combretaceae","Combretaceae undiff.","match! good job","Combretaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Copaifera","Cassia_Cynometra_Erythrophleum_Copaifera_Monopetalanthus","old taxon, update taxonomy","Copaifera-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Irvingia","Irvingia/Klainedoxa","old taxon, update taxonomy",NA,"Irvingia-type gabonensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Entada","Entada_Prosopis_Piptadeniastrum","old taxon, update taxonomy","Entada/Piptadeniastrum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Celtis","Celtis","match! good job","Celtis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Myianthus","Myianthus_Musanga","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Pycnanthus","Pycnanthus","match! good job","Pycnanthus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Tetrorchidium","Tetrorchidium","match! good job","Tetrorchidium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Annonaceae","Annonaceae Undiff.","old taxon, update taxonomy","Annonaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Indet","INDETERMINATE","old taxon, update taxonomy","Indeterminable",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","volume","volume (ml)","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Lyco","Lycopodium (added)","old taxon, update taxonomy","Lycopodiaceae undiff.",NA,"Lycopodium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,"FC000","Lyco","Lycopodium (tracer)","old taxon, update taxonomy","Lycopodiaceae undiff.",NA,"Lycopodium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Sessuvium","Sessuvium","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Bucholzia","Bucholzia","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Leptaulus","Leptaulus","match! good job","Leptaulus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Afzelia","Afzelia","match! good job","Afzelia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Piliostigma","Piliostigma","match! good job","Piliostigma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Dichrostachys","Dichrostachys","match! good job","Dichrostachys",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Lamiaceae","Lamiaceae undiff.","match! good job","Lamiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Ochna","Ochna","match! good job","Ochna",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Securidaca","Polygala_Securidaca","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Psydrax","Keetia_Psydrax","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Holoptela","Holoptela grandis","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Balanites","Balanites","match! good job","Balanites",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Fagonia","Fagonia","match! good job","Fagonia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Heliotropium","Heliotropium","match! good job","Heliotropium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Brassicaceae","Brassicaceae undiff.","match! good job","Brassicaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Convolvulaceae","Convolvulaceae undiff.","match! good job","Convolvulaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Indigofera","Indigofera","match! good job","Indigofera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Lotus","Lotus","match! good job","Lotus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Adenia","Adenia","match! good job","Adenia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Plantago","Plantago","match! good job","Plantago",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Spermacoce","Spermacoce_Diodia","old taxon, update taxonomy","Spermacoce-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Xyris","Xyris","match! good job","Xyris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Sabicea","Sabicea","match! good job","Sabicea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Cardiospermum","Cardiospermum","match! good job","Cardiospermum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Amaranthaceae","Amaranthaceae_Chenopodiaceae undiff.","old taxon, update taxonomy","Amaranthaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Landolphia","Alstonia_Landolphia","old taxon, update taxonomy","Landolphia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Tabernaemontana","Tabernaemontana","match! good job","Tabernaemontana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Ilex","Ilex mitis","match! good job","Ilex mitis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Bignoniaceae","Bignoniaceae Undiff.","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Canarium","Canarium schweinfurthii","old taxon, update taxonomy","Canarium-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Tessmannia","Tessmannia","match! good job","Tessmannia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Mammea","Mammea africana-type","match! good job","Mammea africana-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Allanblackia","Allanblackia","match! good job","Allanblackia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Aneulophus","Aneulophus","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Anthostema","Anthostema","match! is -type appropriate?","Anthostema-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Thecacoris","Antidesma_Thecacoris","old taxon, update taxonomy","Thecacoris-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Martretia","Martretia","close! check nomenclature","Martretia quadricornis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Baphia","Baphia_Millettia","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Xylia","Xylia-type","match! good job","Xylia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Caloncoba","Caloncoba-type","match! good job","Caloncoba-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Kirkia","Kirkia","match! good job","Kirkia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Antiaris","Antiaris_Milicia_Morus","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Ongokea","Ongokea gore","match! good job","Ongokea gore",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Strombosia","Strombosia","match! good job","Strombosia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Panda","Panda oleosa","match! good job","Panda oleosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Medusandra","Medusandra","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Coffea","Coffea","match! good job","Coffea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Ixora","Ixora-type","match! good job","Ixora-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Teclea","Teclea_Vepris","old taxon, update taxonomy","Teclea-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Lecaniodiscus","Aphania_Lecaniodiscus","old taxon, update taxonomy",NA,"Lecaniodiscus-type cupanioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Ganophyllum","Ganophyllum-type giganteum","match! good job","Ganophyllum-type giganteum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Paullinia","Paullinia pinnata","match! good job","Paullinia pinnata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Zanha","Zanha","match! good job","Zanha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Triplochiton","Triplochiton","match! good job","Triplochiton",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Mangifera","Mangifera type","old taxon, update taxonomy","Mangifera indica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Asteraceae","Asteraceae","close! check nomenclature","Asteraceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Bombax","Bombax","match! good job","Bombax",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Ceiba","Ceiba pentandra","match! good job","Ceiba pentandra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Discoglypremna","Discoglypremna caloneura","match! good job","Discoglypremna caloneura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Tephrosia","Tephrosia","match! good job","Tephrosia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Acacia","Acacia","match! good job","Acacia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Premna","Premna","match! is -type appropriate?","Premna-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Rumex","Rumex","match! good job","Rumex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Morinda","Morinda lucida-type","match! good job","Morinda lucida-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Dichostemma","Dichostemma","close! check nomenclature","Dichostemma-type glaucescens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Gilbertiodendron","Gilbertiodendron_Isomacrolobium_Isoberlinia_Berlinia_Pelligriniodendron","old taxon, update taxonomy","Gilbertiodendron-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Irvingia","Irvingia_Klainedoxa","old taxon, update taxonomy",NA,"Irvingia-type gabonensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Scaphopetalum","Scaphopetalum","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Prunus","Prunus","match! good job","Prunus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Craterispermum","Craterispermum","match! good job","Craterispermum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Rinorea","Rinorea","match! good job","Rinorea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Loranthaceae","Loranthaceae undiff.","match! good job","Loranthaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Moraceae","Moraceae Undiff.","old taxon, update taxonomy","Moraceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Phyllantheae","Phyllantheae undiff.","match! good job","Phyllantheae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Sapindaceae","Sapindaceae undiff.","match! good job","Sapindaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Vitaceae","Vitaceae undiff.","match! good job","Vitaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Aidia","Aidia_Catunaregam","old taxon, update taxonomy","Aidia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Croton","Croton_Crotonogyne_Jatropha_Manniophyton_Neoboutonia","old taxon, update taxonomy","Croton/Jatropha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Dialium","Dialium","match! good job","Dialium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Drypetes","Drypetes_Shirakia","old taxon, update taxonomy","Drypetes-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Pterocarpus","Machaerium_Ormocarpum_Pterocarpus","old taxon, update taxonomy","Pterocarpus-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Meliaceae","Meliaceae undiff.","match! good job","Meliaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Nesogordonia","Nesogordonia","match! good job","Nesogordonia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Olax","Olax","match! good job","Olax",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Parinari","Parinari","match! is -type appropriate?","Parinari-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Symphonia","Symphonia globulifera","match! good job","Symphonia globulifera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Allophylus","Allophylus","match! good job","Allophylus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Celtis","Celtis","match! good job","Celtis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Pycnanthus","Pycnanthus","match! good job","Pycnanthus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Zanthoxylum","Zanthoxylum","match! is -type appropriate?","Zanthoxylum-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Blighia","Blighia","match! good job","Blighia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Bridelia","Bridelia_Cleistanthus","old taxon, update taxonomy","Bridelia ferruginea-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Capparis","Capparis","match! good job","Capparis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Sterculia","Cola_Sterculia","old taxon, update taxonomy","Sterculiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Detarium","Detarium","match! good job","Detarium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Diospyros","Diospyros","match! good job","Diospyros",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Dracaena","Dracaena","match! good job","Dracaena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Euphorbia","Elaeophorbia_Euphorbia","old taxon, update taxonomy","Euphorbiaceae undiff.","Euphorbia-type abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Erythrococca","Erythrococca_Micrococca","old taxon, update taxonomy","Erythrococca-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Syzygium","Eugenia_Syzygium","old taxon, update taxonomy","Eucalyptus/Syzygium","Eugenia/Syzygium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Fabaceae","Fabaceae - Caesalpiniaceae undiff.","old taxon, update taxonomy","Fabaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Ficus","Ficus","match! good job","Ficus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Hymenocardia","Hymenocardia","match! good job","Hymenocardia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Vitex","Vitex","match! is -type appropriate?","Vitex-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Copaifera","Cassia_Cynometra_Erythrophleum_Copaifera_Monopetalanthus","old taxon, update taxonomy","Copaifera-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Entada","Entada_Prosopis_Piptadeniastrum","old taxon, update taxonomy","Entada/Piptadeniastrum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Manilkara","Manilkara-type","match! good job","Manilkara-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Mimusops","Mimusops","match! is -type appropriate?","Mimusops-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Pandanus","Pandanus","match! good job","Pandanus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Pseudospondias","Rhus_Anthrocaryon_Pseudospondias","old taxon, update taxonomy","Pseudospondias-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Uapaca","Uapaca","match! good job","Uapaca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Phoenix","Phoenix","match! good job","Phoenix",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Raphia","Raphia","match! good job","Raphia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Alchornea","Alchornea","match! good job","Alchornea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Combretaceae","Combretaceae undiff.","match! good job","Combretaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Lophira","Lophira alata","match! is -type appropriate?","Lophira alata-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Cyperaceae","Cyperaceae undiff.","match! good job","Cyperaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Nymphaea","Nymphaea","match! good job","Nymphaea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Typha","Typha","match! good job","Typha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Nauclea","Corynanthe_Hallea_Hymenodictyon_Mitragyna inermis_Nauclea_Pausinystalia_Sarcocephalus_Uncaria","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Elaeis","Elaeis guineensis","match! good job","Elaeis guineensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Macaranga","Macaranga_Mallotus_Mareya","old taxon, update taxonomy","Macaranga-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Myianthus","Myianthus_Musanga","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Spathodea","Spathodea","close! check nomenclature","Spathodea-type campanulata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Tetrorchidium","Tetrorchidium","match! good job","Tetrorchidium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Trema","Trema","close! check nomenclature","Moraceae/Trema","Celtis/Trema","Trema-type orientalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Anthocleista","Anthocleista grandiflora","match! is -type appropriate?","Anthocleista grandiflora-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Borassus","Borassus_Hyphaene","old taxon, update taxonomy","Borassus/Hyphaene",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Hannoa","Hannoa","match! good job","Hannoa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Lannea","Lannea_Sclerocarya","old taxon, update taxonomy","Lannea/Sclerocarya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Pouteria","Pouteria","match! is -type appropriate?","Pouteria-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Zizyphus","Zizyphus","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Gramineae","Gramineae Undiff.","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Celastraceae","Celastraceae_Hippocrateaceae undiff.","old taxon, update taxonomy","Celastraceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Tiliacora","Stephania_Tiliacora","old taxon, update taxonomy","Tiliacora-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Annonaceae","Annonaceae Undiff.","old taxon, update taxonomy","Annonaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Malvaceae","Malvaceae - Tiliaceae undiff.","old taxon, update taxonomy","Malvaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Palmae","Palmae Undiff.","old taxon, update taxonomy","Palmae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Rubiaceae","Rubiaceae undiff.","match! good job","Rubiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Indet","Indeterminate/NID","old taxon, update taxonomy","Indeterminable",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","volume","volume (ml)","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Lyco","Lycopodium added","old taxon, update taxonomy","Lycopodiaceae undiff.",NA,"Lycopodium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"FC300","Lyco","Lycopodium (tracer)","old taxon, update taxonomy","Lycopodiaceae undiff.",NA,"Lycopodium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Afzelia","Afzelia","match! good job","Afzelia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Apiaceae","Apiaceae undiff.","match! good job","Apiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Balanites","Balanites","match! good job","Balanites",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Barleria","Barleria","match! good job","Barleria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Bucholzia","Bucholzia","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Capparis","Capparis","match! good job","Capparis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Commiphora","Commiphora","match! good job","Commiphora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Daniella","Daniella","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Detarium","Detarium","match! good job","Detarium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Dichrostachys","Dichrostachys","match! good job","Dichrostachys",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Euphorbia","Elaeophorbia/Euphorbia","old taxon, update taxonomy","Euphorbiaceae undiff.","Euphorbia-type abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Erythrococca","Erythrococca/Micrococca","old taxon, update taxonomy","Erythrococca-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Fabaceae","Fabaceae - Mimosoideae Undiff.","old taxon, update taxonomy","Fabaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Hildegardia","Hildegardia","close! check nomenclature","Hildegardia-type barteri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Holoptela","Holoptela grandis","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Psydrax","Keetia/Psydrax","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Lamiaceae","Lamiaceae undiff.","match! good job","Lamiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Leptaulus","Leptaulus","match! good job","Leptaulus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Napoleona","Napoleona","close! check nomenclature","Napoleonaea-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Ochna","Ochna","match! good job","Ochna",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Oleaceae","Oleaceae undiff.","match! good job","Oleaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Oncoba","Oncoba dentata","old taxon, update taxonomy","Oncoba",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Piliostigma","Piliostigma","match! good job","Piliostigma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Securidaca","Polygala/Securidaca","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Adenia","Adenia","match! good job","Adenia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Caryophyllaceae","Caryophyllaceae undiff.","match! good job","Caryophyllaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Convolvulaceae","Convolvulaceae Undiff.","old taxon, update taxonomy","Convolvulaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Indigofera","Indigofera","match! good job","Indigofera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Justicia","Justicia-type","match! good job","Justicia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Lotus","Lotus","match! good job","Lotus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Peperomia","Peperomia","match! good job","Peperomia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Polycarpaea","Polycarpaea-type","match! good job","Polycarpaea-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Scrophulariaceae","Scrophulariaceae undiff.","match! good job","Scrophulariaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Sesamum","Sesamum","match! good job","Sesamum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Trichodesma","Trichodesma","match! good job","Trichodesma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Crinium","Crinium sp.","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Bassiea","Bassiea","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Cardiospermum","Cardiospermum","match! good job","Cardiospermum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Illigera","Illigera","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Malpighiaceae","Malpighiaceae undiff.","match! good job","Malpighiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Sabicea","Sabicea","match! good job","Sabicea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Tylophora","Tylophora","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Aidia","Aidia/Catunaregam","old taxon, update taxonomy","Aidia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Cathormion","Albizia/Cathormion","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Landolphia","Alstonia/Landolphia","old taxon, update taxonomy","Landolphia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Aneulophus","Aneulophus","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Anthostema","Anthostema","match! is -type appropriate?","Anthostema-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Aphania","Aphania/Lecaniodiscus","old taxon, update taxonomy","Aphania-type senegalensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Baphia","Baphia/Millettia","match! good job","Baphia/Millettia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Canarium","Canarium schweinfurthii","old taxon, update taxonomy","Canarium-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Centroplacus","Centroplacus glaucinus","match! good job","Centroplacus glaucinus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Connaraceae","Connaraceae undiff.","match! good job","Connaraceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Cordia","Cordia","match! good job","Cordia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Crudia","Crudia/Anthonotha/Microberlinia","old taxon, update taxonomy","Crudia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Dasylepis","Dasylepis","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Dialium","Dialium","match! good job","Dialium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Dichapetalum","Dichapetalum","match! good job","Dichapetalum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Dicranolepis","Dicranolepis","match! is -type appropriate?","Dicranolepis-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Drypetes","Drypetes/Shirakia","old taxon, update taxonomy","Drypetes-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Eremospatha","Eremospatha","match! good job","Eremospatha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Eriocoelum","Eriocoelum","match! good job","Eriocoelum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Funtumia","Funtumia/Holarrhena/Strophanthus","old taxon, update taxonomy","Funtumia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Gaertnera","Gaertnera","match! good job","Gaertnera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Garcinia","Garcinia","match! good job","Garcinia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Guibourtia","Guibourtia","match! good job","Guibourtia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Icacinaceae","Icacinaceae undiff.","match! good job","Icacinaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Ixora","Ixora-type","match! good job","Ixora-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Kirkia","Kirkia","match! good job","Kirkia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Laccosperma","Laccosperma","match! good job","Laccosperma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Pterocarpus","Machaerium/Ormocarpum/Pterocarpus","old taxon, update taxonomy","Pterocarpus-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Martretia","Martretia","close! check nomenclature","Martretia quadricornis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Medusandra","Medusandra","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Ongokea","Ongokea gore","match! good job","Ongokea gore",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Panda","Panda oleosa","match! good job","Panda oleosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Parinari","Parinari","match! is -type appropriate?","Parinari-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Paullinia","Paullinia","close! check nomenclature","Paullinia pinnata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Podocarpus","Podocarpus","match! good job","Podocarpus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Protea","Protea-type","match! good job","Protea-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Psychotria","Psychotria","match! good job","Psychotria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Rapanea","Rapanea","match! good job","Rapanea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Santiria","Santiria","match! is -type appropriate?","Santiria-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Strombosia","Strombosia","match! good job","Strombosia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Strombosiopsis","Strombosiopsis","close! check nomenclature","Strombosiopsis tetrandra","Strombosiopsis tetrandra ",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Symphonia","Symphonia globulifera","match! good job","Symphonia globulifera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Tabernaemontana","Tabernaemontana","match! good job","Tabernaemontana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Vepris","Teclea/Vepris","old taxon, update taxonomy","Vepris-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Tessmannia","Tessmannia","match! good job","Tessmannia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Tetracera","Tetracera","match! good job","Tetracera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Tetrapleura","Tetrapleura","match! good job","Tetrapleura",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Tricoscypha","Tricoscypha/Sorindeia-type juglandifolia","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Turraeanthus","Turraeanthus","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Ulmaceae","Ulmaceae undiff.","match! good job","Ulmaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Xylia","Xylia-type","match! good job","Xylia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Mangifera","Mangifera type","old taxon, update taxonomy","Mangifera indica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Morinda","Morinda lucida-type","match! good job","Morinda lucida-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Premna","Premna","match! is -type appropriate?","Premna-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Rumex","Rumex","match! good job","Rumex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Salvadora","Salvadora","match! good job","Salvadora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Spathodea","Spathodea","close! check nomenclature","Spathodea-type campanulata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Tephrosia","Tephrosia","match! good job","Tephrosia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Brachystegia","Brachystegia","match! good job","Brachystegia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Calamus","Calamus","close! check nomenclature","Calamus deerratus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Casaeria","Casaeria","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Craterispermum","Craterispermum","match! good job","Craterispermum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Dichostemma","Dichostemma","close! check nomenclature","Dichostemma-type glaucescens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Manilkara","Manilkara-type","match! good job","Manilkara-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Rinorea","Rinorea","match! good job","Rinorea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Spondias","Spondias","match! good job","Spondias",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Ericaceae","Ericaceae undiff.","match! good job","Ericaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Phyllantheae","Phyllantheae undiff.","match! good job","Phyllantheae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Rutaceae","Rutaceae undiff.","match! good job","Rutaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Tiliaceae","Tiliaceae undiff.","match! good job","Tiliaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Blighia","Blighia","match! good job","Blighia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Bridelia","Bridelia/Cleistanthus","old taxon, update taxonomy","Bridelia ferruginea-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Sterculia","Cola/Sterculia","old taxon, update taxonomy","Sterculiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Diospyros","Diospyros","match! good job","Diospyros",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Dracaena","Dracaena","match! good job","Dracaena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Syzygium","Eugenia/Syzygium","match! good job","Eugenia/Syzygium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Fabaceae","Fabaceae - Caesalpiniaceae undiff.","old taxon, update taxonomy","Fabaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Fagonia","Fagonia","match! good job","Fagonia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Ficus","Ficus","match! good job","Ficus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Hymenocardia","Hymenocardia","match! good job","Hymenocardia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Parkia","Parkia","match! good job","Parkia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Sessuvium","Sessuvium","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Vitex","Vitex","match! is -type appropriate?","Vitex-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Brassicaceae","Brassicaceae Undiff.","old taxon, update taxonomy","Brassicaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Gramineae","Gramineae Undiff.","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Heliotropium","Heliotropium","match! good job","Heliotropium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Plantago","Plantago","match! good job","Plantago",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Cyperaceae","Cyperaceae undiff.","match! good job","Cyperaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Nymphaea","Nymphaea","match! good job","Nymphaea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Typha","Typha","match! good job","Typha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Xyris","Xyris","match! good job","Xyris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Celastraceae","Celastraceae/Hippocrateaceae undiff.","match! good job","Celastraceae/Hippocrateaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Tiliacora","Stephania/Tiliacora","old taxon, update taxonomy","Tiliacora-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Dacryodes","Boswellia/Dacryodes","old taxon, update taxonomy","Dacryodes-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Mammea","Mammea-type","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Antiaris","Antiaris/Milicia/Morus","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Thecacoris","Antidesma/Thecacoris","old taxon, update taxonomy","Thecacoris-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Croton","Croton/Crotonogyne/Jatropha/Manniophyton/Neoboutonia","old taxon, update taxonomy","Croton/Jatropha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Meliaceae","Meliaceae undiff.","match! good job","Meliaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Nesogordonia","Nesogordonia","match! good job","Nesogordonia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Olax","Olax","match! good job","Olax",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Triplochiton","Triplochiton","match! good job","Triplochiton",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Borassus","Borassus/Hyphaene","match! good job","Borassus/Hyphaene",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Elaeis","Elaeis guineensis","match! good job","Elaeis guineensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Palmae","Palmae Undiff.","old taxon, update taxonomy","Palmae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Phoenix","Phoenix","match! good job","Phoenix",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Raphia","Raphia","match! good job","Raphia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Acacia","Acacia","match! good job","Acacia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Alchornea","Alchornea","match! good job","Alchornea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Amaranthaceae","Amaranthaceae/Chenopodiaceae undiff.","match! good job","Amaranthaceae/Chenopodiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Anthocleista","Anthocleista grandiflora","match! is -type appropriate?","Anthocleista grandiflora-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Asteraceae","Asteraceae","close! check nomenclature","Asteraceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Bombax","Bombax","match! good job","Bombax",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Ceiba","Ceiba pentandra","match! good job","Ceiba pentandra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Nauclea","Corynanthe/Hallea/Hymenodictyon/Mitragyna inermis/Nauclea/Pausinystalia/Sarcocephalus/Uncaria","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Hannoa","Hannoa","match! good job","Hannoa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Lannea","Lannea/Sclerocarya","match! good job","Lannea/Sclerocarya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Macaranga","Macaranga/Mallotus/Mareya","old taxon, update taxonomy","Macaranga-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Pouteria","Pouteria","match! is -type appropriate?","Pouteria-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Trema","Trema","close! check nomenclature","Moraceae/Trema","Celtis/Trema","Trema-type orientalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Zizyphus","Zizyphus","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Copaifera","Cassia/Cynometra/Erythrophleum/Copaifera/Monopetalanthus","old taxon, update taxonomy","Copaifera-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Entada","Entada/Prosopis/Piptadeniastrum","old taxon, update taxonomy","Entada/Piptadeniastrum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Gilbertiodendron","Gilbertiodendron/Isomacrolobium/Isoberlinia/Berlinia/Pelligriniodendron","old taxon, update taxonomy","Gilbertiodendron-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Irvingia","Irvingia/Klainedoxa","old taxon, update taxonomy",NA,"Irvingia-type gabonensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Lophira","Lophira alata","match! is -type appropriate?","Lophira alata-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Mimusops","Mimusops","match! is -type appropriate?","Mimusops-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Pandanus","Pandanus","match! good job","Pandanus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Piptostigma","Piptostigma","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Prunus","Prunus","match! good job","Prunus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Pseudospondias","Rhus/Anthrocaryon/Pseudospondias","old taxon, update taxonomy","Pseudospondias-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Scaphopetalum","Scaphopetalum","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Terminalia","Terminalia","match! is -type appropriate?","Terminalia-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Uapaca","Uapaca","match! good job","Uapaca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Allophylus","Allophylus","match! good job","Allophylus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Celtis","Celtis","match! good job","Celtis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Myrianthus","Myrianthus/Musanga","old taxon, update taxonomy","Musanga/Myrianthus","Myrianthus-type arboreus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Pycnanthus","Pycnanthus","match! good job","Pycnanthus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Tetrorchidium","Tetrorchidium","match! good job","Tetrorchidium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Zanthoxylum","Zanthoxylum","match! is -type appropriate?","Zanthoxylum-type",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Annonaceae","Annonaceae Undiff.","old taxon, update taxonomy","Annonaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Combretaceae","Combretaceae undiff.","match! good job","Combretaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Malvaceae","Malvaceae - Tiliaceae undiff.","old taxon, update taxonomy","Malvaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Moraceae","Moraceae Undiff.","old taxon, update taxonomy","Moraceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Rubiaceae","Rubiaceae undiff.","match! good job","Rubiaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Sapindaceae","Sapindaceae undiff.","match! good job","Sapindaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Sapotaceae","Sapotaceae Undiff.","old taxon, update taxonomy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Vitaceae","Vitaceae undiff.","match! good job","Vitaceae undiff.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Indet","Indeterminate/NID","old taxon, update taxonomy","Indeterminable",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","volume","volume (ml)","no match, check spelling",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Lyco","Lycopodium added","old taxon, update taxonomy","Lycopodiaceae undiff.",NA,"Lycopodium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+3,"FC400","Lyco","Lycopodium (tracer)","old taxon, update taxonomy","Lycopodiaceae undiff.",NA,"Lycopodium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

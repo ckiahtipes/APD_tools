@@ -28,10 +28,10 @@ harmonizer=function(rec_names,master_file,taxa_file=FALSE,Tilia_format=FALSE,APD
   ###COUNT TAXA AND PREPARE TABLES
   
   name_length=vector(mode="numeric",length=1) #vector to track number of short names per record
-  fullname_length=vector(mode="numeric",length=1) #vector to track number of long names per record ###CAK_comment this validates that the _data and _taxa files are matched, keep it.
+  fullname_length=vector(mode="numeric",length=1) #vector to track number of long names per record 
   
   for(i in 1:length(rec_names)){ #Read data and get taxa names from columns.
-    pol_data=read.csv(paste0(path,'/data/',rec_names[i],"_data.csv"),header=TRUE,row.names="X") ###Pulling "X" which requires fix below.. ###CAK_EDITS #read file: fix file reading, note in README.md
+    pol_data=read.csv(paste0(path,'/data/',rec_names[i],"_data.csv"),header=TRUE,row.names="X")
     cn=colnames(pol_data)
     name_length[i]=length(cn)
     if(taxa_file==TRUE){
@@ -46,17 +46,13 @@ harmonizer=function(rec_names,master_file,taxa_file=FALSE,Tilia_format=FALSE,APD
     }
   } #Close for loop to track names per record.
   
-  ###USE COUNTS TO CREATE MATRIX FOR PLACING DATA
-    #This might be improved by imagining two discrete steps:
-      #1) read tables, compare taxa with AML's list, and leave suggestions
-      #2) read tables, collect user validated data, and write new tables.
+  #USE COUNTS TO CREATE MATRIX FOR PLACING DATA
   
   #Use name_length to build out a matrix.
-  taxa_just=matrix(ncol=5,nrow=sum(name_length)) #Lumping everything together, right?
+  taxa_just=matrix(ncol=5,nrow=sum(name_length)) 
   taxa_just=as.data.frame(taxa_just)
-  colnames(taxa_just)=c("REC_no","CODE_APD","SHORT_TAXON","FULL_TAXON","COMMENT") ###CAK_comment: we're committing to the final table form early on - should this go in phases?
-  ###CAK_EDITS #initial table: should include a "comment/suggestion" column where harmonizer leaves a note about what the problem may be.
-  ###CAK_EDITS #initial table: we're not using SUGG_TAXON or POLL_TYPE in this table at all.
+  colnames(taxa_just)=c("REC_no","CODE_APD","SHORT_TAXON","FULL_TAXON","COMMENT") 
+
   
   for(i in 1:length(rec_names)){ #For loop reads each record and writes taxa names into it. 
     print(rec_names[i])
@@ -158,10 +154,6 @@ harmonizer=function(rec_names,master_file,taxa_file=FALSE,Tilia_format=FALSE,APD
   } #end of loop searching by taxon
   
   ###SEARCHING TAXON NAMES AND WRITING MATCH MATRIX
-  ###CAK_EDITS #Reading and matching efficiency: there's several improvements in the original script that haven't been collapsed...
-  ###This is the first sweep, need to be specific about the order
-    ###Alternatively, I could collapse the different searches into this one loop...
-    ###Other loops are all designed to find and correct missing aspects of this loop!
   
   match_matrix=matrix(nrow=length(n_matches),ncol=max(n_matches,na.rm=TRUE))
   match_matrix=as.data.frame(match_matrix)
@@ -277,16 +269,11 @@ harmonizer=function(rec_names,master_file,taxa_file=FALSE,Tilia_format=FALSE,APD
   
   write.csv(output,file="harmonizeR_output.csv",row.names=FALSE)
   
-  ###I THINK WE CAN MAKE ALL OF THE BELOW REDUNDANT.
-  ###WE DID IT! ONLY ABOUT 31 NAs
-  
 } #Closing out function.
 
 
-
-
 #Test data and function runs.
-rec_names=rec_names=c("FC000")#,"FC300","FC400")
+rec_names=rec_names=c("FC000","FC300","FC400")
 master_file="AML_base.csv" #UPDATE ME
 taxa_file="TRUE"
 Tilia_format=FALSE
