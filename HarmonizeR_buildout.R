@@ -275,9 +275,6 @@ harmonizer=function(rec_names,master_file,taxa_file=FALSE,Tilia_format=FALSE,APD
 #Test data and function runs.
 rec_names=rec_names=c("FC000","FC300","FC400")
 master_file="AML_base.csv" #UPDATE ME
-taxa_file="TRUE"
-Tilia_format=FALSE
-APD_format=TRUE
 
 
-harmonizer(rec_names,master_file,taxa_file=TRUE,APD_format=FALSE)
+harmonizer(rec_names,master_file,taxa_file=TRUE,APD_format=TRUE)
