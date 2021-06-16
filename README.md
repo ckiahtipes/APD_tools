@@ -16,10 +16,7 @@ First, users take their data (or APD data) and run it against a master morphotyp
 
 Second, users validate taxa on their own using online databases (tropicos.org or African Plants Database) and save this updated file.
 
-
-
 Third, users can read this new data and write new results with updated names.
-
 
 #Goals
 
