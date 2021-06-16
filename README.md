@@ -20,16 +20,28 @@ Third, users can read this new data and write new results with updated names.
 
 #Goals
 
-*Build structure of function and test against established data.
-*Write tutorial showing basic use of the function
-*Distribute function to testers and, eventually, APD data stewards.
+*Build structure of function and test against established data. DONE
+*Write tutorial showing basic use of the function. DONE
+*Distribute function to testers and, eventually, APD data stewards. IN PROGRESS
+
+We can set some additional goals here:
+
+*Update function structure and mechanism to increase stability.
+*Write code to use matched spreadsheets to get pollen types, family names, and to write an updated data file.
 
 #Updates
 
-##1 Jun 2021
+##1 June 2021
 
 Picked up this task after a long absence. Completed review of old code and brought all sections into a new script (HarmonizeR_buildout.R). The code itself works, but the function does not work at the moment. There's a handful of problems that I've identified:
 
-*Need to make searching and writing tables more systematic and less haphazard (large code section at the end).
-*Develop systematic naming for master reference and its columns.
-*Create mechanisms for giving feedback to users.
+*Need to make searching and writing tables more systematic and less haphazard (large code section at the end). DONE
+*Develop systematic naming for master reference and its columns. DONE
+*Create mechanisms for giving feedback to users. DONE
+
+##16 June 2021
+
+Presented code and basic functionality at APD data steward meeting a week ago. Also got some good feedback from S. Goring and have identified some routes for improvement.
+
+Ignoring my usual desire to perfect things before sharing them, I'm making the initial version (v.0) public while I proceed with the major fixes.
+
