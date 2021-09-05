@@ -159,6 +159,12 @@ harmonizer=function(rec_names,master_file="AML_base_2019.csv",taxa_file=FALSE,Ti
   
   ###Need to accommodate variation in data submitted - should be able to run on just a list of names from a data table...
   
+  ###Encountering an error with "invalid regular expression" within the master$ORIGINAL.NAMES
+  
+  #master_original_names=sub('\\ .*|\\_.*|\\/.*|\\-.*','',master$ORIGINAL.NAMES) #Issue is a typo in original spreadsheet?
+  
+  ###END OF "invalid regular expression" fix.
+  
   if(APD_format==TRUE){ #If we're working with APD format, then we can search both original and proposed names from AML's list.
     for(i in 1:nrow(taxa_just)){ #For loop searching for original taxa names, and matching them to revised names.
       y=grep(taxa_just$FULL_TAXON[i],proposed_names) #Starting with ideal match - full name to revised name in AMLs list. ###NAMING OF MASTER LIST ITEMS FOR PORTABILITY?
@@ -173,7 +179,7 @@ harmonizer=function(rec_names,master_file="AML_base_2019.csv",taxa_file=FALSE,Ti
               taxa_just$COMMENT[i]="no match, check spelling" ###Write in suggestion
             } else { #If our fourth tier search succeeds...
               for(j in 1:length(y)){ #For loop to handle multiple matches.
-                z=grep(original_names[y[j]],master$ORIGINAL.NAMES)
+                z=grep(original_names[y[j]],master$ORIGINAL.NAMES) ###FIXING "invalid regular expressing" issue CAK 5/9/2021 ###REVERT
                 match_matrix[i,j]=master$PROPOSED.NAMES[z[j]] #And we want to write each of those matches to the matrix.
               }
               taxa_just$COMMENT[i]="update taxonomy, revise upwards?" ###Write in suggestion
@@ -186,7 +192,7 @@ harmonizer=function(rec_names,master_file="AML_base_2019.csv",taxa_file=FALSE,Ti
           }
         } else { #If we succeed at second tier, write it
           for(j in 1:length(y)){ #For loop to handle multiple matches.
-            z=grep(original_names[y[j]],master$ORIGINAL.NAMES)
+            z=grep(original_names[y[j]],master$ORIGINAL.NAMES) ###FIXING "invalid regular expressing" issue CAK 5/9/2021 ###REVERT
             match_matrix[i,j]=master$PROPOSED.NAMES[z[j]] #And we want to write each of those matches to the matrix.
           }
           taxa_just$COMMENT[i]="old taxon, update taxonomy"  ###Write in suggestion
