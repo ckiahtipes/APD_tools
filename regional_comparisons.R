@@ -24,12 +24,12 @@ reference=read.csv("AML_base_2019.csv",header=TRUE)
 
 #We can start off by reading from a list of records that we want to query...
 
-sites=read.table("records/APDrecs.csv",header=TRUE,sep=",")
-msites=read.table("records/mAPDrecs.csv",header=TRUE,sep=",")
-rec_names=sites$CODE
-mrec_names=msites$CODE
+sites=read.csv("records/APDrecs.csv",header=TRUE)
+msites=read.csv("records/mAPDrecs.csv",header=TRUE)
+record_details=rbind(sites,msites)
 
-rec_names=c(rec_names,mrec_names) #List of marine and terrestrial records from which we're pulling pollen results.
+rec_names=record_details[record_details$TYPE=="APD Chron",4] #List of marine and terrestrial records from which we're pulling pollen results.
+
 
 #Question is how to apply harmonizer (concatenate a list, or have a for loop run over it?).
 
@@ -159,13 +159,61 @@ for(i in 1:length(rec_names)){
   plot_results[[i]][[2]]=fossil_data[sort(fossil_taxa$P_HABIT),]
   plot_results[[i]][[3]]=CHRON
   
-  #With this in hand, we can calculate percent of the pollen sum and get some summary pollen results.
-  all_pollen=fossil_data[fossil_taxa[,4]!="Sp" | fossil_taxa[,4]!="X",]
-  row.names(all_pollen)=fossil_taxa[fossil_taxa[,4]!="Sp" | fossil_taxa[,4]!="X",3]
-  herbaceous=fossil_data[fossil_taxa[,4]=="N" | fossil_taxa[,4]=="NL" | fossil_taxa[,4]=="NQ",]
-  arb_pollen=fossil_data[fossil_taxa[,4]=="A" | fossil_taxa[,4]=="AL",]
+  #With this in hand, we can organize results by pollen type and derive a pollen sum.
+  
+  all_pollen=fossil_data[fossil_taxa[,4]!="Sp" | fossil_taxa[,4]!="X" | fossil_taxa[,4]!="Other" | fossil_taxa[,4]!= "Ss" | fossil_taxa[,4]!="St" | fossil_taxa[,4]!= "Sb" | fossil_taxa[,4]!="S",]
+  row.names(all_pollen)=fossil_taxa[fossil_taxa[,4]!="Sp" | fossil_taxa[,4]!="X" | fossil_taxa[,4]!="Other" | fossil_taxa[,4]!= "Ss" | fossil_taxa[,4]!="St" | fossil_taxa[,4]!= "Sb" | fossil_taxa[,4]!="S",3]
+  
+  herbaceous=fossil_data[fossil_taxa[,4]=="N" | fossil_taxa[,4]=="NL" | fossil_taxa[,4]=="Nq" | fossil_taxa[,4]=="NG",]
+  row.names(herbaceous)=fossil_taxa[fossil_taxa[,4]=="N" | fossil_taxa[,4]=="NL" | fossil_taxa[,4]=="Nq" | fossil_taxa[,4]=="NG",3]
+  
+  arb_pollen=fossil_data[fossil_taxa[,4]=="A" | fossil_taxa[,4]=="AL" | fossil_taxa[,4]=="L",] #Including all Lianes
+  row.names(arb_pollen)=fossil_taxa[fossil_taxa[,4]=="A" | fossil_taxa[,4]=="AL" | fossil_taxa[,4]=="L",3]
+  
   plm_pollen=fossil_data[fossil_taxa[,4]=="PI" | fossil_taxa[,4]=="PA" | fossil_taxa[,4]=="PL",]
-  spores=fossil_data[fossil_taxa[,4]=="Sp",]
+  row.names(plm_pollen)=fossil_taxa[fossil_taxa[,4]=="PI" | fossil_taxa[,4]=="PA" | fossil_taxa[,4]=="PL",3]
+  
+  ind_pollen=fossil_data[fossil_taxa[,4]=="I",] #Indeteminate growth form palms are with the palms, so this isn't perfectly consistent.
+  row.names(ind_pollen)=fossil_taxa[fossil_taxa[,4]=="I",3]
+  
+  spores=fossil_data[fossil_taxa[,4]=="Sp" | fossil_taxa[,4]=="S" | fossil_taxa[,4]=="Ss" | fossil_taxa[,4]=="St" | fossil_taxa[,4]=="Sb" |fossil_taxa[,4]=="Stp",]
+  row.names(spores)=fossil_taxa[fossil_taxa[,4]=="Sp" | fossil_taxa[,4]=="S" | fossil_taxa[,4]=="Ss" | fossil_taxa[,4]=="St" | fossil_taxa[,4]=="Sb" |fossil_taxa[,4]=="Stp",3]
+  
+  #NEED TO PULL AND EXCLUDE INDETERMINATE?
+  
+  #This is where we might insert some code to exclude select arboreal taxa (Rhizophora, Syzygium, etc.).
+  
+  arb_sum=apply(arb_pollen,2,sum)
+  hrb_sum=apply(herbaceous,2,sum)
+  plm_sum=apply(plm_pollen,2,sum)
+  ind_sum=apply(ind_pollen,2,sum)
+  all_sum=apply(all_pollen,2,sum)
+  
+  
+  ptype_summary=rbind(arb_sum,hrb_sum,plm_sum,ind_sum)
+  ptype_summary=t(ptype_summary) #Neet to transpose table to get the %s
+  ptype_pct=(ptype_summary/all_sum)*100 #This works so far...
+  ptype_pct=t(ptype_pct)
+  
+  depth=as.numeric(colnames(ptype_pct))*-1
+  ptype_pct=ptype_pct[,sort(rev(depth))]
+  barplot(ptype_pct[,ncol(ptype_pct):1],horiz=TRUE,beside=FALSE,xlim=c(0,100))
+  
+  
+  #
+  
+  all_pct=(all_pollen/arb_sum)*100
+  arb_pct=(arb_pollen/arb_sum)*100
+  hrb_pct=(herbaceous/arb_sum)*100
+  plm_pct=(plm_pollen/arb_sum)*100
+  spr_pct=(spores/arb_sum)*100
+  
+  #The above has defined % values for the results and summed observations of major groups for comparison.
+  #Now we define an x-axis.
+  
+  x_axis=plot_results[[i]][[3]][1,]
+  
+  #Test plots
   
 }
 
