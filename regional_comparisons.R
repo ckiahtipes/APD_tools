@@ -148,16 +148,29 @@ for(i in 1:length(rec_names)){
 for(i in 1:length(rec_names)){
   row_tracker=c(1:nrow(plot_results[[i]][[1]]))
   chron_cut=row_tracker[is.na(plot_results[[i]][[1]][,4])]
+  if(length(chron_cut)<1){
+    fossil_taxa=plot_results[[i]][[1]]
+    fossil_data=plot_results[[i]][[2]]
+    
+    plot_results[[i]][[1]]=fossil_taxa[sort(fossil_taxa$P_HABIT),]
+    plot_results[[i]][[2]]=fossil_data[sort(fossil_taxa$P_HABIT),]
+    
+  } else {
+    fossil_taxa=plot_results[[i]][[1]][-c(chron_cut),]
+    fossil_data=plot_results[[i]][[2]][-c(chron_cut),]
+    CHRON=plot_results[[i]][[2]][chron_cut,]
+    
+    plot_results[[i]][[1]]=fossil_taxa[sort(fossil_taxa$P_HABIT),]
+    plot_results[[i]][[2]]=fossil_data[sort(fossil_taxa$P_HABIT),]
+    plot_results[[i]][[3]]=CHRON
+  }
   
-  fossil_taxa=plot_results[[i]][[1]][-c(chron_cut),]
-  fossil_data=plot_results[[i]][[2]][-c(chron_cut),]
-  CHRON=plot_results[[i]][[2]][chron_cut,]
   
   #The above separates the chronology, leaving only the fossil data, below we will sort it by pollen type (arboreal, herbaceous, etc.)
   
-  plot_results[[i]][[1]]=fossil_taxa[sort(fossil_taxa$P_HABIT),]
-  plot_results[[i]][[2]]=fossil_data[sort(fossil_taxa$P_HABIT),]
-  plot_results[[i]][[3]]=CHRON
+  #plot_results[[i]][[1]]=fossil_taxa[sort(fossil_taxa$P_HABIT),]
+  #plot_results[[i]][[2]]=fossil_data[sort(fossil_taxa$P_HABIT),]
+  #plot_results[[i]][[3]]=CHRON
   
   #With this in hand, we can organize results by pollen type and derive a pollen sum.
   
@@ -198,7 +211,7 @@ for(i in 1:length(rec_names)){
   depth=as.numeric(colnames(ptype_pct))*-1
   ptype_pct=ptype_pct[,sort(rev(depth))]
   barplot(ptype_pct[,ncol(ptype_pct):1],horiz=TRUE,beside=FALSE,xlim=c(0,100))
-  
+  title(main=paste0(rec_names[i]," Results Summary"))
   
   #
   
@@ -211,7 +224,7 @@ for(i in 1:length(rec_names)){
   #The above has defined % values for the results and summed observations of major groups for comparison.
   #Now we define an x-axis.
   
-  x_axis=plot_results[[i]][[3]][1,]
+  #x_axis=plot_results[[i]][[3]][1,]
   
   #Test plots
   
