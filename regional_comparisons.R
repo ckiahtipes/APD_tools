@@ -124,7 +124,7 @@ for(i in 1:length(rec_names)){
 
 plot_results=lapply(1:length(rec_names),function(x){
   lapply(1,function(y){
-    array(dim=2)
+    array(dim=5)
     })
   })
 
@@ -152,16 +152,16 @@ for(i in 1:length(rec_names)){
     fossil_taxa=plot_results[[i]][[1]]
     fossil_data=plot_results[[i]][[2]]
     
-    plot_results[[i]][[1]]=fossil_taxa[sort(fossil_taxa$P_HABIT),]
-    plot_results[[i]][[2]]=fossil_data[sort(fossil_taxa$P_HABIT),]
+    plot_results[[i]][[1]]=fossil_taxa[order(fossil_taxa$P_HABIT),]
+    plot_results[[i]][[2]]=fossil_data[order(fossil_taxa$P_HABIT),]
     
   } else {
     fossil_taxa=plot_results[[i]][[1]][-c(chron_cut),]
     fossil_data=plot_results[[i]][[2]][-c(chron_cut),]
     CHRON=plot_results[[i]][[2]][chron_cut,]
     
-    plot_results[[i]][[1]]=fossil_taxa[sort(fossil_taxa$P_HABIT),]
-    plot_results[[i]][[2]]=fossil_data[sort(fossil_taxa$P_HABIT),]
+    plot_results[[i]][[1]]=fossil_taxa[order(fossil_taxa$P_HABIT),]
+    plot_results[[i]][[2]]=fossil_data[order(fossil_taxa$P_HABIT),]
     plot_results[[i]][[3]]=CHRON
   }
   
@@ -174,13 +174,13 @@ for(i in 1:length(rec_names)){
   
   #With this in hand, we can organize results by pollen type and derive a pollen sum.
   
-  all_pollen=fossil_data[fossil_taxa[,4]!="Sp" | fossil_taxa[,4]!="X" | fossil_taxa[,4]!="Other" | fossil_taxa[,4]!= "Ss" | fossil_taxa[,4]!="St" | fossil_taxa[,4]!= "Sb" | fossil_taxa[,4]!="S",]
-  row.names(all_pollen)=fossil_taxa[fossil_taxa[,4]!="Sp" | fossil_taxa[,4]!="X" | fossil_taxa[,4]!="Other" | fossil_taxa[,4]!= "Ss" | fossil_taxa[,4]!="St" | fossil_taxa[,4]!= "Sb" | fossil_taxa[,4]!="S",3]
+  all_pollen=fossil_data[fossil_taxa[,4]!="Sp" & fossil_taxa[,4]!="X" & fossil_taxa[,4]!="Other" & fossil_taxa[,4]!= "Ss" & fossil_taxa[,4]!="St" & fossil_taxa[,4]!= "Sb" & fossil_taxa[,4]!="S",]
+  row.names(all_pollen)=fossil_taxa[fossil_taxa[,4]!="Sp" & fossil_taxa[,4]!="X" & fossil_taxa[,4]!="Other" & fossil_taxa[,4]!= "Ss" & fossil_taxa[,4]!="St" & fossil_taxa[,4]!= "Sb" & fossil_taxa[,4]!="S",3]
   
   herbaceous=fossil_data[fossil_taxa[,4]=="N" | fossil_taxa[,4]=="NL" | fossil_taxa[,4]=="Nq" | fossil_taxa[,4]=="NG",]
   row.names(herbaceous)=fossil_taxa[fossil_taxa[,4]=="N" | fossil_taxa[,4]=="NL" | fossil_taxa[,4]=="Nq" | fossil_taxa[,4]=="NG",3]
   
-  arb_pollen=fossil_data[fossil_taxa[,4]=="A" | fossil_taxa[,4]=="AL" | fossil_taxa[,4]=="L",] #Including all Lianes
+  arb_pollen=fossil_data[fossil_taxa[,4]=="A" | fossil_taxa[,4]=="AL" | fossil_taxa[,4]=="L",] #Including all Lianas
   row.names(arb_pollen)=fossil_taxa[fossil_taxa[,4]=="A" | fossil_taxa[,4]=="AL" | fossil_taxa[,4]=="L",3]
   
   plm_pollen=fossil_data[fossil_taxa[,4]=="PI" | fossil_taxa[,4]=="PA" | fossil_taxa[,4]=="PL",]
@@ -194,6 +194,8 @@ for(i in 1:length(rec_names)){
   
   #NEED TO PULL AND EXCLUDE INDETERMINATE?
   
+  plot_results[[i]][[4]]=plot_results[[i]][[1]][plot_results[[i]][[1]][,4]!="Sp" & plot_results[[i]][[1]][,4]!="X" & plot_results[[i]][[1]][,4]!="Other" & plot_results[[i]][[1]][,4]!= "Ss" & plot_results[[i]][[1]][,4]!="St" & plot_results[[i]][[1]][,4]!= "Sb" & plot_results[[i]][[1]][,4]!="S",]
+  
   #This is where we might insert some code to exclude select arboreal taxa (Rhizophora, Syzygium, etc.).
   
   arb_sum=apply(arb_pollen,2,sum)
@@ -201,7 +203,6 @@ for(i in 1:length(rec_names)){
   plm_sum=apply(plm_pollen,2,sum)
   ind_sum=apply(ind_pollen,2,sum)
   all_sum=apply(all_pollen,2,sum)
-  
   
   ptype_summary=rbind(arb_sum,hrb_sum,plm_sum,ind_sum)
   ptype_summary=t(ptype_summary) #Neet to transpose table to get the %s
@@ -213,20 +214,51 @@ for(i in 1:length(rec_names)){
   barplot(ptype_pct[,ncol(ptype_pct):1],horiz=TRUE,beside=FALSE,xlim=c(0,100))
   title(main=paste0(rec_names[i]," Results Summary"))
   
-  #
+  #Percent plotting specific taxa
   
-  #all_pct=(all_pollen/arb_sum)*100
-  #arb_pct=(arb_pollen/arb_sum)*100
-  #hrb_pct=(herbaceous/arb_sum)*100
-  #plm_pct=(plm_pollen/arb_sum)*100
-  #spr_pct=(spores/arb_sum)*100
+  all_pct=matrix(nrow=nrow(all_pollen),ncol=ncol(fossil_data))
+  all_pct=as.data.frame(all_pct)
+  row.names(all_pct)=row.names(all_pollen)
+  colnames(all_pct)=colnames(fossil_data)
   
-  #The above has defined % values for the results and summed observations of major groups for comparison.
-  #Now we define an x-axis.
+  arb_pct=matrix(nrow=nrow(arb_pollen),ncol=ncol(fossil_data))
+  arb_pct=as.data.frame(arb_pct)
+  row.names(arb_pct)=row.names(arb_pollen)
+  colnames(arb_pct)=colnames(fossil_data)
   
-  #x_axis=plot_results[[i]][[3]][1,]
+  hrb_pct=matrix(nrow=nrow(herbaceous),ncol=ncol(fossil_data))
+  hrb_pct=as.data.frame(hrb_pct)
+  row.names(hrb_pct)=row.names(herbaceous)
+  colnames(hrb_pct)=colnames(fossil_data)
   
-  #Test plots
+  plm_pct=matrix(nrow=nrow(plm_pollen),ncol=ncol(fossil_data))
+  plm_pct=as.data.frame(plm_pct)
+  row.names(plm_pct)=row.names(plm_pollen)
+  colnames(plm_pct)=colnames(fossil_data)
+  
+  sp_pct=matrix(nrow=nrow(spores),ncol=ncol(fossil_data))
+  sp_pct=as.data.frame(sp_pct)
+  row.names(sp_pct)=row.names(spores)
+  colnames(sp_pct)=colnames(fossil_data)
+  
+  for(j in 1:nrow(fossil_data)){
+    x1=(all_pollen[j,]/arb_sum)*100
+    all_pct[j,]=x1
+    
+    x2=(arb_pollen[j,]/arb_sum)*100
+    arb_pct[j,]=x2
+    
+    x3=(herbaceous[j,]/arb_sum)*100
+    hrb_pct[j,]=x3
+    
+    x4=(plm_pollen[j,]/arb_sum)*100
+    plm_pct[j,]=x4
+    
+    x5=(spores[j,]/arb_sum)*100
+    sp_pct[j,]=x5
+  }
+  
+  plot_results[[i]][[5]]=all_pct
   
 }
 
