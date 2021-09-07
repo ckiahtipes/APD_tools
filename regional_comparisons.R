@@ -262,7 +262,75 @@ for(i in 1:length(rec_names)){
   
 }
 
+#We are fucked here because R wants to work with columns, which you already knew you fucking twit.
 
+#Take a list of records from a similar area and plot their results together?
+
+
+plot(0,0,pch=NA,xlim=c(-2,12),ylim=c(-30000,0),main="Grass Z-Scores, Marine Records",xlab=NA,axes=FALSE,ylab="yr BP")
+axis(1,at=seq(-2,12,2),labels = c(-2,0,2,4,-2,0,2,4))
+axis(2,at=seq(-30000,0,1000))
+marine_group=c(msites$CODE[msites$LAT>0])
+for(i in 1:length(marine_group)){
+  x=grep(marine_group[i],rec_names)
+  p_pct=t(plot_results[[x]][[5]])
+  p_pct=as.data.frame(p_pct)
+  p_chr=plot_results[[x]][[3]][1,]*-1
+  p_chr[p_chr==0]=NA
+  z=grep("Poaceae undiff.",colnames(p_pct))
+  if(length(z)>0){
+    lines(zscore(p_pct$`Poaceae undiff.`),p_chr,pch=21,bg=i,type="o",lty=3)
+  }
+}
+
+marine_group=c(msites$CODE[msites$LAT<0])
+for(i in 1:length(marine_group)){
+  x=grep(marine_group[i],rec_names)
+  p_pct=t(plot_results[[x]][[5]])
+  p_pct=as.data.frame(p_pct)
+  p_chr=plot_results[[x]][[3]][1,]*-1
+  p_chr[p_chr==0]=NA
+  z=grep("Poaceae undiff.",colnames(p_pct))
+  if(length(z)>0){
+    lines(zscore(p_pct$`Poaceae undiff.`)+8,p_chr,pch=21,bg=i,type="o",lty=3)
+  }
+}
+
+#Terrestrial Records...
+
+plot(0,0,pch=NA,xlim=c(-2,12),ylim=c(-30000,0),main="Grass Z-Scores, Terrestrial Records",xlab=NA,axes=FALSE,ylab="yr BP")
+axis(1,at=seq(-2,12,2),labels = c(-2,0,2,4,-2,0,2,4))
+axis(2,at=seq(-30000,0,1000))
+
+CB_group=c(sites$CODE[sites$TYPE=="APD Chron" & sites$LONG<14])
+for(i in 1:length(CB_group)){
+  x=grep(CB_group[i],rec_names)
+  p_pct=t(plot_results[[x]][[5]])
+  p_pct=as.data.frame(p_pct)
+  p_chr=plot_results[[x]][[3]][1,]*-1
+  #min_age=min(p_chr,na.rm=TRUE)
+  p_chr[p_chr==0]=NA
+  z=grep("Poaceae undiff.",colnames(p_pct))
+  if(length(z)>0){ #Cut out  & min_age<(-10000)
+    print("plotting")
+    lines(zscore(p_pct$`Poaceae undiff.`),p_chr,pch=21,bg=i,type="o",lty=3)
+  }
+}
+
+CB_group=c(sites$CODE[sites$TYPE=="APD Chron" & sites$LONG>14])
+for(i in 1:length(CB_group)){
+  x=grep(CB_group[i],rec_names)
+  p_pct=t(plot_results[[x]][[5]])
+  p_pct=as.data.frame(p_pct)
+  p_chr=plot_results[[x]][[3]][1,]*-1
+  #min_age=min(p_chr,na.rm=TRUE)
+  p_chr[p_chr==0]=NA
+  z=grep("Poaceae undiff.",colnames(p_pct))
+  if(length(z)>0){ #Cut out  & min_age<(-10000)
+    print("plotting")
+    lines(zscore(p_pct$`Poaceae undiff.`)+8,p_chr,pch=21,bg=i,type="o",lty=3)
+  }
+}
 
 
 

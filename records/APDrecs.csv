@@ -1,12 +1,12 @@
 TYPE,APD_no,NAME,CODE,LAT,LONG,ALT,CNTRY,PUB YEAR,Region
 APD Chron,1,Yéviédié [YEV-1],YEV1,6.534333333,2.373666667,53,Benin,2002,W. Africa
 APD Chron,29,Lac Nokoué [SOA.99],SOA-99,6.490333333,2.386166667,47,Benin,2002,W. Africa
-APD Chron,260,Lake Sélé,LACSELE_APD,7.15,2.433333333,,Benin,2005,W. Africa
+APD no Chron,260,Lake Sélé,LACSELE_APD,7.15,2.433333333,,Benin,2005,W. Africa
 APD Chron,27,Goho [GOHO.00],GOHO,6.439166667,2.574166667,35,Benin,2002,W. Africa
 APD Chron,26,Dangbo [DO.00],DANGBO,6.604166667,2.5905,40,Benin,2002,W. Africa
 APD Chron,242,Lake Ossa I,OSSA1,3.775,10.01833333,8,Cameroon,1991,Atlantic Zone
 APD Chron,19,Lake Ossa [OW4],OW4,3.800833333,10.75,8,Cameroon,1995,Atlantic Zone
-APD Chron,473,Shum Laka [W-10],SHUM,5.85,10.05,1355,Cameroun,1994,Atlantic Zone
+APD no Chron,473,Shum Laka [W-10],SHUM,5.85,10.05,1355,Cameroun,1994,Atlantic Zone
 APD Chron,13,Kitina Lake [KT3],KT3,-4.268666667,12,120,Congo,1996,Atlantic Zone
 APD Chron,75,Coraf [CORAF 2],CORAF2,-4.75,11.85,1,Congo,1992,Atlantic Zone
 APD Chron,76,Coraf [CORAF T],CORAFT,-4.75,11.85016667,0,Congo,1992,Atlantic Zone
