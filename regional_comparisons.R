@@ -30,6 +30,7 @@ record_details=rbind(sites,msites)
 
 rec_names=record_details[record_details$TYPE=="APD Chron",4] #List of marine and terrestrial records from which we're pulling pollen results.
 
+rec_names=c("DANGBO","TILLA","KW31","NIGERDC2")
 
 #Question is how to apply harmonizer (concatenate a list, or have a for loop run over it?).
 
@@ -124,7 +125,7 @@ for(i in 1:length(rec_names)){
 
 plot_results=lapply(1:length(rec_names),function(x){
   lapply(1,function(y){
-    array(dim=5)
+    array(dim=6)
     })
   })
 
@@ -199,13 +200,14 @@ for(i in 1:length(rec_names)){
   #This is where we might insert some code to exclude select arboreal taxa (Rhizophora, Syzygium, etc.).
   
   arb_sum=apply(arb_pollen,2,sum)
+  #arb_sum[arb_sum==0]=10 #Temporary fix to make sure we don't get Inf of NaN's in the cases where there's no arboreal pollen (Tilla) ###This fix works, but yuck.
   hrb_sum=apply(herbaceous,2,sum)
   plm_sum=apply(plm_pollen,2,sum)
   ind_sum=apply(ind_pollen,2,sum)
   all_sum=apply(all_pollen,2,sum)
   
   ptype_summary=rbind(arb_sum,hrb_sum,plm_sum,ind_sum)
-  ptype_summary=t(ptype_summary) #Neet to transpose table to get the %s
+  ptype_summary=t(ptype_summary) #Need to transpose table to get the %s
   ptype_pct=(ptype_summary/all_sum)*100 #This works so far...
   ptype_pct=t(ptype_pct)
   
@@ -257,6 +259,14 @@ for(i in 1:length(rec_names)){
     x5=(spores[j,]/arb_sum)*100
     sp_pct[j,]=x5
   }
+  
+  all_sum[all_sum==0]=NA
+  AP_NAP=arb_sum/(all_sum)
+  NAP=hrb_sum/(all_sum)
+  
+  indices=cbind(AP_NAP,NAP)
+  
+  plot_results[[i]][[6]]=indices
   
   plot_results[[i]][[5]]=all_pct
   
@@ -331,6 +341,37 @@ for(i in 1:length(CB_group)){
     lines(zscore(p_pct$`Poaceae undiff.`)+8,p_chr,pch=21,bg=i,type="o",lty=3)
   }
 }
+
+###Let's try to plot some West African Data
+WAF_group=c("DANGBO","TILLA","KW31","NIGERDC2")
+plot(0,0,pch=NA,xlim=c(0,4),ylim=c(-30000,0),main="AP_NAP Ratio, West African Records",xlab=NA,axes=FALSE,ylab="yr BP")
+axis(1,at=seq(0,3,1),labels = c(WAF_group))
+axis(2,at=seq(-30000,0,1000))
+
+
+for(i in 1:length(WAF_group)){
+  x=grep(WAF_group[i],rec_names)
+  p_pct=t(plot_results[[x]][[5]])
+  p_pct=as.data.frame(p_pct)
+  p_chr=plot_results[[x]][[3]][1,]*-1
+  #min_age=min(p_chr,na.rm=TRUE)
+  p_chr[p_chr==0]=NA
+  z=grep("Poaceae undiff.",colnames(p_pct))
+  #if(length(z)>0){ #Cut out  & min_age<(-10000)
+  #  print("plotting")
+  #  z_grass=zscore(p_pct$`Poaceae undiff.`)
+  #  pct_grass=p_pct$`Poaceae undiff.`
+  #  lines(pct_grass/(max(pct_grass,na.rm=TRUE))+(i-1),p_chr,pch=21,bg=i,type="o",lty=3)
+  #}
+  AP_NAP=plot_results[[x]][[6]]
+  lines(AP_NAP[,1]/(max(AP_NAP[,1],na.rm=TRUE))+(i-1),p_chr,pch=21,bg=i,type="o",lty=3)
+  
+}
+
+
+
+
+
 
 
 
