@@ -1,0 +1,57 @@
+/* DATA DESCRIPTION:
+Citation:	Kallweit, Wiebke; Mollenhauer, Gesine; Zabel, Matthias (2012): GDGT and n-alkane data of sediment core GeoB4901-8. PANGAEA, https://doi.org/10.1594/PANGAEA.783637, 
+	Supplement to: Kallweit, W et al. (2012): Multi-proxy reconstruction of terrigenous input and sea-surface temperatures in the eastern Gulf of Guinea over the last ~35 ka. Marine Geology, 319-322, 35-46, https://doi.org/10.1016/j.margeo.2012.06.007
+Abstract:	The tight coupling between the atmospheric and oceanic circulation in the equatorial Atlantic region makes this area an important region for paleoclimatic research. Previous studies report the occurrence of large amounts of terrigenous material and soil organic carbon (SOC) within the marine sediments of the eastern Gulf of Guinea. We use the accumulation rates (AR) of branched glycerol dialkyl glycerol tetraethers (GDGTs) to identify variations in SOC delivery to the Niger Fan over the last 35 ka, and compare these records to long-chain n-alkanes as a proxy for higher plant material, to an inorganic proxy for terrigenous input (aluminum AR) and to indicators for the marine productivity (AR of carbonate and crenarchaeol). In addition, sea surface temperatures (SSTs) are calculated based on the TEX86H index and environmental factors affecting the SST-reconstructions are discussed.
+	Our results indicate that Al AR are closely connected to the rate of mean sea level change after 15 ka BP, with an additional influence of the increased monsoonal precipitation and extended vegetation cover corresponding to the African Humid Period (14.8–5.5 ka BP). Branched GDGT AR appears to be determined by shelf erosion in addition to the interplay of monsoonal precipitation and vegetation cover controlling soil erosion. Long-chain n-alkane concentrations clearly show a different trend than the other proxies, which might be due to their predominant eolian transport.
+	Paleo-SSTs show a clear shift from colder temperatures during the last glacial period (20–22 °C) to warmer temperatures during the Holocene (24–26 °C). However, TEX86H-based SSTs are cold-biased compared to recent SSTs and Mg/Ca-based SST reconstructions, which is probably caused by a high seasonality of the Thaumarchaeota, with a maximum productivity of these organisms during the cold summer months. However, a sub-surface production of GDGTs and/or a potential bias of SST reconstruction by terrestrial input could not be completely excluded.
+Project(s):	Geosciences, University of Bremen (GeoB) (URI: http://www.geo.uni-bremen.de/page.php?langid=EN)
+Coverage:	LATITUDE: 2.678333 * LONGITUDE: 6.720000
+	DATE/TIME START: 1998-02-26T05:58:00 * DATE/TIME END: 1998-02-26T05:58:00
+	MINIMUM DEPTH, sediment/rock: 0.10 m * MAXIMUM DEPTH, sediment/rock: 2.99 m
+Event(s):	GeoB4901-8 * LATITUDE: 2.678333 * LONGITUDE: 6.720000 * DATE/TIME: 1998-02-26T05:58:00 * ELEVATION: -2184.0 m * Recovery: 20.28 m * LOCATION: Eastern Niger fan * CAMPAIGN: M41/1 (URI: https://doi.org/10.2312/cr_m41) * BASIS: Meteor (1986) (URI: https://de.wikipedia.org/wiki/Meteor_(Schiff,_1986)) * METHOD/DEVICE: Gravity corer (Kiel type) (SL) * COMMENT: CC: dark gray hemipelagic mud
+Parameter(s):	DEPTH, sediment/rock [m] (Depth) * GEOCODE
+	AGE [ka BP] (Age) * GEOCODE
+	Carbon, organic, total [%] (TOC) * PI: Kallweit, Wiebke (kallweit@uni-bremen.de) * METHOD/DEVICE: Carbon analyser, LECO * COMMENT: [%] TOC
+	Acyclic glycerol dialkyl glycerol tetraether [µg/g] (GDGT-0) * PI: Kallweit, Wiebke (kallweit@uni-bremen.de) * METHOD/DEVICE: High Performance Liquid Chromatography (HPLC-APCI-MS) * COMMENT: [µg/g TOC]
+	Crenarchaeol [µg/g] (Cren) * PI: Kallweit, Wiebke (kallweit@uni-bremen.de) * METHOD/DEVICE: High Performance Liquid Chromatography (HPLC-APCI-MS) * COMMENT: [µg/g TOC]
+	Crenarchaeol regio-isomer [µg/g] (Cren') * PI: Kallweit, Wiebke (kallweit@uni-bremen.de) * METHOD/DEVICE: High Performance Liquid Chromatography (HPLC-APCI-MS) * COMMENT: [µg/g TOC]
+	Mono-/di-/tricyclic glycerol dialkyl glycerol tetraether [µg/g] (GDGT-1-3) * PI: Kallweit, Wiebke (kallweit@uni-bremen.de) * METHOD/DEVICE: High Performance Liquid Chromatography (HPLC-APCI-MS) * COMMENT: [µg/g TOC]
+	Branched glycerol dialkyl glycerol tetraether [µg/g] (brGDGTs I-III) * PI: Kallweit, Wiebke (kallweit@uni-bremen.de) * METHOD/DEVICE: High Performance Liquid Chromatography (HPLC-APCI-MS) * COMMENT: [µg/g TOC]
+	Branched and isoprenoid tetraether index (BIT) * PI: Kallweit, Wiebke (kallweit@uni-bremen.de) * METHOD/DEVICE: Calculated, see reference(s) * COMMENT: [µg/g TOC]
+	Tetraether index of 86 carbon atoms (TEX86) * PI: Kallweit, Wiebke (kallweit@uni-bremen.de) * METHOD/DEVICE: Calculated, see reference(s) * COMMENT: TEX(H)86
+	Sea surface temperature [°C] (SST) * PI: Kallweit, Wiebke (kallweit@uni-bremen.de) * METHOD/DEVICE: Calculated, see reference(s) * COMMENT: after Kim et al. (2010)
+	n-Alkane (C21-C35) [µg/g] (C21-C35) * PI: Kallweit, Wiebke (kallweit@uni-bremen.de) * METHOD/DEVICE: Gas chromatography - Flame Ionization Detection (GC-FID) * COMMENT: [µg/g TOC]
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+Size:	300 data points
+*/
+Depth [m]	Age [ka BP]	TOC [%]	GDGT-0 [µg/g]	Cren [µg/g]	Cren' [µg/g]	GDGT-1-3 [µg/g]	brGDGTs I-III [µg/g]	BIT	TEX86	SST [°C]	C21-C35 [µg/g]
+0.10	2.90	1.42	96.6	173.4	10.1	56.8	10.3	0.06	-0.21	23.5	151.5
+0.20	4.91	1.39	111.9	195.0	12.1	65.4	15.7	0.07	-0.21	24.0	105.5
+0.30	6.80	1.50	93.6	177.8	10.6	58.4	14.7	0.08	-0.21	23.9	84.4
+0.40	7.97	1.34	92.9	172.3	10.0	55.1	18.2	0.10	-0.21	23.5	101.1
+0.49	8.52	1.35	118.5	217.9	13.8	73.2	23.1	0.10	-0.20	25.4	118.6
+0.57	8.90	1.28	103.8	198.4	12.4	68.0	20.8	0.09	-0.20	24.4	104.3
+0.69	9.44	1.31	104.9	205.5	12.5	67.7	27.5	0.12	-0.19	25.6	110.1
+0.79	10.50	1.30	99.4	195.3	12.2	65.4	32.5	0.14	-0.20	24.7	132.1
+0.89	11.59	1.18	73.0	144.1	9.5	51.0	18.8	0.12	-0.20	24.9	131.8
+1.00	13.08	1.47	62.0	112.0	7.1	37.8	10.9	0.09	-0.19	26.1	136.2
+1.09	14.32	1.53	111.1	194.5	10.9	67.1	13.0	0.06	-0.22	23.0	218.6
+1.19	15.69	1.52	83.0	140.6	8.0	48.7	12.6	0.08	-0.20	25.2	305.4
+1.29	17.05	1.68	52.7	77.1	3.4	25.0	13.2	0.15	-0.23	21.1	183.5
+1.42	18.82	1.49	44.0	64.6	2.9	20.8	12.3	0.16	-0.23	21.1	296.5
+1.49	19.78	1.66	51.2	72.2	2.9	22.9	12.1	0.14	-0.25	19.3	274.3
+1.59	20.92	1.61	55.4	74.1	2.7	23.1	13.2	0.15	-0.27	17.6	128.9
+1.70	22.17	1.53	65.2	87.3	3.1	27.7	13.0	0.13	-0.27	17.6	287.2
+1.79	23.18	1.45	50.1	68.8	2.4	21.6	12.7	0.16	-0.26	17.8	249.0
+1.90	24.64	1.45	64.5	87.7	3.4	28.2	15.8	0.15	-0.26	18.4	229.4
+2.00	25.97	1.47	54.8	86.3	3.7	27.1	15.3	0.15	-0.24	20.1	221.9
+2.09	27.16	1.55	39.2	52.6	1.9	15.9	15.5	0.23	-0.25	19.6	183.0
+2.19	28.03	1.50	54.6	84.8	3.9	28.4	18.5	0.18	-0.23	21.1	181.5
+2.31	29.03	1.63	46.0	65.0	2.6	21.3	14.2	0.18	-0.25	18.8	230.2
+2.42	29.95	1.66	71.7	102.6	3.7	33.2	16.3	0.14	-0.26	17.8	215.4
+2.49	30.54	1.54	64.5	91.7	3.3	30.2	19.9	0.18	-0.26	18.7	152.1
+2.59	31.34	1.57	48.0	71.2	3.0	23.3	17.4	0.20	-0.25	19.4	208.1
+2.70	32.22	1.64	133.2	197.6	7.8	69.6	20.8	0.10	-0.25	19.4	228.0
+2.79	32.94	1.69	62.6	9.2	3.6	29.5	16.7	0.15	-0.25	19.0	200.9
+2.90	33.82	1.80	32.4	49.9	2.3	16.1	14.2	0.22	-0.24	20.6	286.6
+2.99	34.54	1.67	76.1	112.3	4.8	37.5	17.7	0.14	-0.24	19.9	281.8

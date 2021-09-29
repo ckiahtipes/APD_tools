@@ -1,0 +1,34 @@
+/* DATA DESCRIPTION:
+Citation:	Weldeab, Syee; Schneider, Ralph R; Kölling, Martin; Wefer, Gerold (2005): (Table DR1) Age control points for the age model of sediment core GeoB4905-4. PANGAEA, https://doi.org/10.1594/PANGAEA.415810, 
+	In supplement to: Weldeab, S et al. (2005): Holocene African droughts relate to eastern equatorial Atlantic cooling. Geology, 33(12), 981-984, https://doi.org/10.1130/G21874.1
+Related to:	Adegbie, Adesina T; Schneider, Ralph R; Röhl, Ursula; Wefer, Gerold (2003): Glacial millennial-scale fluctuations in central African precipitation recorded in terrigenous sediment supply and freshwater signals offshore Cameroon. Palaeogeography, Palaeoclimatology, Palaeoecology, 197(3-4), 323-333, https://doi.org/10.1016/S0031-0182(03)00474-7
+Project(s):	Geosciences, University of Bremen (GeoB) (URI: http://www.geo.uni-bremen.de/page.php?langid=EN)
+	Center for Marine Environmental Sciences (MARUM) (URI: http://www.marum.de/en/)
+Coverage:	LATITUDE: 2.500000 * LONGITUDE: 9.390000
+	DATE/TIME START: 1998-03-01T06:48:00 * DATE/TIME END: 1998-03-01T06:48:00
+	MINIMUM DEPTH, sediment/rock: 0.055 m * MAXIMUM DEPTH, sediment/rock: 5.230 m
+Event(s):	GeoB4905-4 * LATITUDE: 2.500000 * LONGITUDE: 9.390000 * DATE/TIME: 1998-03-01T06:48:00 * ELEVATION: -1328.0 m * Recovery: 12.18 m * LOCATION: off Cameroon * CAMPAIGN: M41/1 (URI: https://doi.org/10.2312/cr_m41) * BASIS: Meteor (1986) (URI: https://de.wikipedia.org/wiki/Meteor_(Schiff,_1986)) * METHOD/DEVICE: Gravity corer (Kiel type) (SL) * COMMENT: CC: dark olive hemipelagic mud
+Parameter(s):	DEPTH, sediment/rock [m] (Depth) * GEOCODE
+	Sample code/label (Sample label) * PI: Weldeab, Syee (https://orcid.org/0000-0002-4829-5237, sweldeab@geol.ucsb.edu)
+	Age, dated material (Dated material) * PI: Weldeab, Syee (https://orcid.org/0000-0002-4829-5237, sweldeab@geol.ucsb.edu)
+	Age, dated [ka] (Age dated) * PI: Weldeab, Syee (https://orcid.org/0000-0002-4829-5237, sweldeab@geol.ucsb.edu) * METHOD/DEVICE: Age, 14C AMS (URI: https://doi.org/10.1146/annurev.ns.30.120180.002253)
+	Age, dated standard deviation [±] (Age dated std dev) * PI: Weldeab, Syee (https://orcid.org/0000-0002-4829-5237, sweldeab@geol.ucsb.edu) * METHOD/DEVICE: Age, 14C AMS (URI: https://doi.org/10.1146/annurev.ns.30.120180.002253)
+	Calendar age [ka BP] (Cal age) * PI: Weldeab, Syee (https://orcid.org/0000-0002-4829-5237, sweldeab@geol.ucsb.edu) * METHOD/DEVICE: Age, 14C calibrated, CALIB (Stuiver & Reimer, 1993) (URI: http://digitalcommons.library.arizona.edu/objectviewer?o=http://radiocarbon.library.arizona.edu/Volume35/Number1/azu_radiocarbon_v35_n1_215_230_v.pdf)
+	Calendar age, minimum/young [ka BP] (Cal age min) * PI: Weldeab, Syee (https://orcid.org/0000-0002-4829-5237, sweldeab@geol.ucsb.edu) * METHOD/DEVICE: Age, 14C calibrated * COMMENT: 2 sigma range
+	Calendar age, maximum/old [ka BP] (Cal age max) * PI: Weldeab, Syee (https://orcid.org/0000-0002-4829-5237, sweldeab@geol.ucsb.edu) * METHOD/DEVICE: Age, 14C calibrated * COMMENT: 2 sigma range
+	Reference/source (Reference) * PI: Weldeab, Syee (https://orcid.org/0000-0002-4829-5237, sweldeab@geol.ucsb.edu)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+Size:	88 data points
+*/
+Depth [m]	Sample label	Dated material	Age dated [ka]	Age dated std dev [±]	Cal age [ka BP]	Cal age min [ka BP]	Cal age max [ka BP]	Reference
+0.055	KIA20514	Globigerinoides ruber pink	0.900	0.025	0.509	0.466	0.552	Weldeab et al. 2005
+0.388	KIA23465	Globigerinoides ruber pink	3.080	0.030	2.849	2.758	2.939	Weldeab et al. 2005
+0.730	KIA20513	Globigerinoides ruber pink	4.840	0.035	5.145	5.016	5.273	Weldeab et al. 2005
+1.430	KIA20512	Globigerinoides ruber pink	7.185	0.040	7.654	7.567	7.741	Weldeab et al. 2005
+1.902	KIA23466	Globigerinoides ruber pink	8.710	0.040	9.378	9.281	9.475	Weldeab et al. 2005
+2.130	KIA20510	Globigerinoides ruber pink	9.885	0.050	10.824	10.611	11.037	Weldeab et al. 2005
+2.580	KIA19673	Globigerinoides ruber pink	10.900	0.060	12.452	12.200	12.704	Weldeab et al. 2005
+3.030	KIA20509	Globigerinoides ruber pink	12.470	0.060	13.919	13.782	14.056	Weldeab et al. 2005
+3.430	KIA13717	mixed planktonic foraminifers	13.660	0.090	15.730	15.312	16.147	Adegbie et al. 2003
+4.330	KIA13716	mixed planktonic foraminifers	16.170	0.110	19.016	18.807	19.224	Adegbie et al. 2003
+5.230	KIA13715	mixed planktonic foraminifers	18.440	0.150	21.469	20.960	21.978	Adegbie et al. 2003

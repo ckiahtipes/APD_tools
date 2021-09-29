@@ -364,7 +364,7 @@ for(i in 1:length(WAF_group)){
   #  lines(pct_grass/(max(pct_grass,na.rm=TRUE))+(i-1),p_chr,pch=21,bg=i,type="o",lty=3)
   #}
   AP_NAP=plot_results[[x]][[6]]
-  lines(AP_NAP[,1]/(max(AP_NAP[,1],na.rm=TRUE))+(i-1),p_chr,pch=21,bg=i,type="o",lty=3)
+  lines(AP_NAP[,1]/(max(AP_NAP[,1],na.rm=TRUE)),p_chr,pch=21,bg=i,type="o",lty=3)
   
 }
 
