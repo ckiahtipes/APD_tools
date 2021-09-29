@@ -15,6 +15,8 @@ zscore<-function(y1) {
 
 ###Harmonizer will also be necessary, include here or save fancy stuff for R markdown?
 
+
+
 pull_types=TRUE
 append_original=TRUE
 check_doubles=TRUE
@@ -344,7 +346,7 @@ for(i in 1:length(CB_group)){
 
 ###Let's try to plot some West African Data
 WAF_group=c("DANGBO","TILLA","KW31","NIGERDC2")
-plot(0,0,pch=NA,xlim=c(0,4),ylim=c(-30000,0),main="AP_NAP Ratio, West African Records",xlab=NA,axes=FALSE,ylab="yr BP")
+plot(0,0,pch=NA,xlim=c(0,1.5),ylim=c(-20000,0),main="AP_NAP Ratio, West African Records",xlab=NA,axes=FALSE,ylab="yr BP")
 axis(1,at=seq(0,3,1),labels = c(WAF_group))
 axis(2,at=seq(-30000,0,1000))
 
