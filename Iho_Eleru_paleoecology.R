@@ -18,6 +18,7 @@ zscore<-function(y1) {
 
 #HarmonizeR
 
+library(rbacon)
 harmonizer=function(rec_names,master_file="AML_base_2019.csv",taxa_file=FALSE,Tilia_format=TRUE,APD_format=TRUE){ #Function needs names of pollen records and a master list. ###consider repairing "rec_names" to something more sensible.
   path=getwd()
   ###UNIVERSAL OBJECTS: MASTER POLLEN/MORPHOTYPE LIST
@@ -294,8 +295,14 @@ harmonizer=function(rec_names,master_file="AML_base_2019.csv",taxa_file=FALSE,Ti
   
 } #Closing out function.
 
+#Setting logical controls for code development and evaluation
 
-#Harmonizing datasets and plotting initial results.
+pull_types=TRUE
+append_original=TRUE
+check_doubles=TRUE
+repair_doubles=TRUE
+
+reference=read.csv("AML_base_2019.csv",header=TRUE)
 
 #We can start off by reading from a list of records that we want to query...
 
@@ -454,11 +461,15 @@ for(i in 1:length(rec_names)){
   
   arb_pollen=fossil_data[fossil_taxa[,4]=="A" | fossil_taxa[,4]=="AL" | fossil_taxa[,4]=="L",] #Including all Lianas
   row.names(arb_pollen)=fossil_taxa[fossil_taxa[,4]=="A" | fossil_taxa[,4]=="AL" | fossil_taxa[,4]=="L",3]
+  
   #Need to exclude Rhizophora
   arb_taxa=row.names(arb_pollen)
   man_finder=grep("Rhizophora",arb_taxa)
   if(length(man_finder>0)){
+    mang_pollen=arb_pollen[man_finder,]
     arb_pollen=arb_pollen[-c(man_finder),]
+  } else {
+    mang_pollen=c(rep(0,ncol(all_pollen)))
   }
   
   plm_pollen=fossil_data[fossil_taxa[,4]=="PI" | fossil_taxa[,4]=="PA" | fossil_taxa[,4]=="PL",]
@@ -483,10 +494,12 @@ for(i in 1:length(rec_names)){
   ind_sum=apply(ind_pollen,2,sum)
   all_sum=apply(all_pollen,2,sum)
   
-  ptype_summary=rbind(arb_sum,hrb_sum,plm_sum,ind_sum)
+  ptype_summary=rbind(arb_sum,mang_pollen,hrb_sum,plm_sum,ind_sum)
   ptype_summary=t(ptype_summary) #Need to transpose table to get the %s
   ptype_pct=(ptype_summary/all_sum)*100 #This works so far...
   ptype_pct=t(ptype_pct)
+  
+  #Can we intervene somewhere in here and add Rhizophora/Mangroves?
   
   depth=as.numeric(colnames(ptype_pct))*-1
   ptype_pct=ptype_pct[,sort(rev(depth))]
@@ -549,4 +562,58 @@ for(i in 1:length(rec_names)){
   
 }
 
+#At this point, we have all of the pollen datasets. Lac Sele is missing the chronological data and we need to load the marine proxies for terrigenous input.
 
+#Build chronology for Sélé from published 14C Dates.
+SELE_depth=as.numeric(row.names(plot_results$LACSELE_APD[[6]]))
+Bacon("SELE",postbomb=1,thick=10,depths=SELE_depth)
+SELE_adm=read.table("Cores/SELE/SELE_140_ages.txt",header=TRUE,sep="\t",row.names="depth")
+
+#Append chronology to Sélé data in array.
+
+plot_results$LACSELE_APD[[3]]=t(SELE_adm)
+
+#Read marine data.
+
+#Does it make any sense to bundle all of the AP_NAP data or NAP data, z-score it, and plot it?
+
+#What about binning by 500/1000 year intervals, then plotting averages with deviations?
+
+
+
+
+
+
+
+
+
+
+###Let's try to plot some West African Data.
+
+WAF_group=c("DANGBO","TILLA","KW31","NIGERDC2","LACSELE_APD")
+plot(0,0,pch=NA,xlim=c(0,1.5),ylim=c(-20000,0),main="AP_NAP Ratio, West African Records",xlab=NA,axes=FALSE,ylab="yr BP")
+axis(1,at=seq(0,3,1),labels = c(WAF_group))
+axis(2,at=seq(-30000,0,1000))
+
+for(i in 1:length(WAF_group)){
+  x=grep(WAF_group[i],rec_names)
+  p_pct=t(plot_results[[x]][[5]])
+  p_pct=as.data.frame(p_pct)
+  if(WAF_group[i]=="LACSELE_APD"){
+    p_chr=plot_results[[x]][[3]][4,]*-1
+  } else {
+    p_chr=plot_results[[x]][[3]][1,]*-1
+  }
+  #min_age=min(p_chr,na.rm=TRUE)
+  p_chr[p_chr==0]=NA
+  z=grep("Poaceae undiff.",colnames(p_pct))
+  #if(length(z)>0){ #Cut out  & min_age<(-10000)
+  #  print("plotting")
+  #  z_grass=zscore(p_pct$`Poaceae undiff.`)
+  #  pct_grass=p_pct$`Poaceae undiff.`
+  #  lines(pct_grass/(max(pct_grass,na.rm=TRUE))+(i-1),p_chr,pch=21,bg=i,type="o",lty=3)
+  #}
+  AP_NAP=plot_results[[x]][[6]]
+  lines(AP_NAP[,1]/(max(AP_NAP[,1],na.rm=TRUE)),p_chr,pch=21,bg=i,type="o",lty=3)
+  
+}
