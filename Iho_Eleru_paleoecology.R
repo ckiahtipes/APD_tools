@@ -602,7 +602,7 @@ plot_results$LACSELE_APD[[3]]=t(SELE_adm)
 WAF_group=c("DANGBO","TILLA","KW31","NIGERDC2","LACSELE_APD")
 plot(0,0,pch=NA,xlim=c(-4,4),ylim=c(-20000,0),main="AP_NAP Ratio, West African Records",xlab=NA,axes=FALSE,ylab="yr BP")
 
-axis(1,at=seq(0,3,1),labels = c(WAF_group))
+axis(1,at=seq(0,4,1),labels = c(WAF_group))
 
 axis(2,at=seq(-30000,0,1000))
 
