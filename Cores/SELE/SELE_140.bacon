@@ -1,4 +1,4 @@
-## Ran on Thu Sep 30 07:42:00 2021 
+## Ran on Thu Sep 30 09:27:02 2021 
 
 Cal 0 : ConstCal;
 Cal 1 : IntCal20, 1;
@@ -22,4 +22,4 @@ Det 12 : Erl-4058 , 7559, 69, 1379,  0,  0,  3,  4,  1;
 Det 13 : NA , 7559, 7.559e+09, 1390,  0,  0,  3,  4,  1;
 
 ##		 K   MinAge   MaxAge   th0   th0p   w.a   w.b   alpha  beta  dmin  dmax seed
-Bacon 0: FixT, 140,  -391,  1e+06,  -157,  -121,  5,  5,  1.5,  0.3, 1, 1401, 160325;
+Bacon 0: FixT, 140,  -391,  1e+06,  -114,  -133,  5,  5,  1.5,  0.3, 1, 1401, 418706;
