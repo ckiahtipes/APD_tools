@@ -18,6 +18,7 @@ zscore<-function(y1) {
 
 #HarmonizeR
 
+library(npreg)
 library(rbacon)
 harmonizer=function(rec_names,master_file="AML_base_2019.csv",taxa_file=FALSE,Tilia_format=TRUE,APD_format=TRUE){ #Function needs names of pollen records and a master list. ###consider repairing "rec_names" to something more sensible.
   path=getwd()
@@ -297,6 +298,8 @@ harmonizer=function(rec_names,master_file="AML_base_2019.csv",taxa_file=FALSE,Ti
 
 #Setting logical controls for code development and evaluation
 
+run_SELE_dates=FALSE
+
 pull_types=TRUE
 append_original=TRUE
 check_doubles=TRUE
@@ -313,7 +316,7 @@ record_details=rbind(sites,msites)
 rec_names=record_details[record_details$TYPE=="APD Chron",4] #List of marine and terrestrial records from which we're pulling pollen results.
 
 rec_names=c("DANGBO","TILLA","KW31","NIGERDC2","LACSELE_APD")
-
+#rec_names=c("TILLA","KW31","NIGERDC2","LACSELE_APD")
 #Question is how to apply harmonizer (concatenate a list, or have a for loop run over it?).
 
 harmonizer_results=lapply(1:length(rec_names),function(x){
@@ -566,7 +569,11 @@ for(i in 1:length(rec_names)){
 
 #Build chronology for Sélé from published 14C Dates.
 SELE_depth=as.numeric(row.names(plot_results$LACSELE_APD[[6]]))
-Bacon("SELE",postbomb=1,thick=10,depths=SELE_depth)
+
+if(run_SELE_dates==TRUE){
+  Bacon("SELE",postbomb=1,thick=10,depths=SELE_depth)
+}
+
 SELE_adm=read.table("Cores/SELE/SELE_140_ages.txt",header=TRUE,sep="\t",row.names="depth")
 
 #Append chronology to Sélé data in array.
@@ -574,6 +581,8 @@ SELE_adm=read.table("Cores/SELE/SELE_140_ages.txt",header=TRUE,sep="\t",row.name
 plot_results$LACSELE_APD[[3]]=t(SELE_adm)
 
 #Read marine data.
+
+
 
 #Does it make any sense to bundle all of the AP_NAP data or NAP data, z-score it, and plot it?
 
@@ -591,9 +600,9 @@ plot_results$LACSELE_APD[[3]]=t(SELE_adm)
 ###Let's try to plot some West African Data.
 
 WAF_group=c("DANGBO","TILLA","KW31","NIGERDC2","LACSELE_APD")
-plot(0,0,pch=NA,xlim=c(0,1.5),ylim=c(-20000,0),main="AP_NAP Ratio, West African Records",xlab=NA,axes=FALSE,ylab="yr BP")
+plot(0,0,pch=NA,xlim=c(-4,4),ylim=c(-20000,0),main="AP_NAP Ratio, West African Records",xlab=NA,axes=FALSE,ylab="yr BP")
 
-axis(1,at=seq(0,4,1),labels = c(WAF_group))
+axis(1,at=seq(0,3,1),labels = c(WAF_group))
 
 axis(2,at=seq(-30000,0,1000))
 
@@ -616,6 +625,78 @@ for(i in 1:length(WAF_group)){
   #  lines(pct_grass/(max(pct_grass,na.rm=TRUE))+(i-1),p_chr,pch=21,bg=i,type="o",lty=3)
   #}
   AP_NAP=plot_results[[x]][[6]]
-  lines(AP_NAP[,1]/(max(AP_NAP[,1],na.rm=TRUE)),p_chr,pch=21,bg=i,type="o",lty=3)
-  
+  NAPz=zscore(AP_NAP[,2])
+  AP_NAPz=zscore(AP_NAP[,1])
+  AP_NAP=cbind(AP_NAP,AP_NAPz,NAPz)
+  #lines(AP_NAP[,1]/(max(AP_NAP[,1],na.rm=TRUE)),p_chr,pch=21,bg=i,type="o",lty=3)
+  lines(NAPz,p_chr,pch=21,bg=i,type="o",lty=3)
+  #lines(zscore(AP_NAP),p_chr,pch=21,bg=i,type="o",lty=3)
+  if(i==1){
+    smooth_table=as.data.frame(AP_NAP)
+    smooth_table=cbind(smooth_table,t(p_chr))
+  } else {
+    AP_NAP=cbind(AP_NAP,t(p_chr))
+    smooth_table=rbind(smooth_table,AP_NAP)
+  }
 }
+
+#Let's take aggregated results and apply some kind of smoothing.
+
+smooth_table=na.omit(smooth_table)
+smooth_table=smooth_table[smooth_table[,5]>-12000,] #Excluding dates outside of the Iho Eleru chronology
+smooth_table=smooth_table[order(smooth_table[,5]),]
+
+hist(smooth_table[,5]) #This is roughly how many data points per 1000 year bin we would get...
+hist(smooth_table[,5],breaks=24) #This is the data points for 500 year bins...
+
+#thing=rev(smooth_table[,5])
+
+#Section for testing smoothed AP_NAP index
+
+smoothed_lines=ksmooth(smooth_table[,5],smooth_table$AP_NAPz,bandwidth=500)
+spline_smoothed=smooth.spline(smooth_table$Chron1,smooth_table$AP_NAPz,nknots=12)
+ss_smoothed=ss(smooth_table$Chron1,smooth_table$AP_NAPz,nknots=12)
+
+plot(smooth_table$AP_NAPz,smooth_table$Chron1)
+lines(smoothed_lines$y,smoothed_lines$x)
+#lines(smooth(smooth_table$AP_NAPz,kind="3RSR"),smooth_table$Chron1,lty=1)
+lines(spline_smoothed$y,spline_smoothed$x,lty=3,col="red")
+plot(ss_smoothed,add=TRUE)
+
+#Section for testing smoothed NAP
+
+smoothed_lines=ksmooth(smooth_table[,5],smooth_table$NAPz,bandwidth=500)
+spline_smoothed=smooth.spline(smooth_table$Chron1,smooth_table$NAPz,nknots=12)
+ss_smoothed=ss(smooth_table$Chron1,smooth_table$NAPz,nknots=12)
+
+plot(smooth_table$NAPz,smooth_table$Chron1)
+lines(smoothed_lines$y,smoothed_lines$x)
+#lines(smooth(smooth_table$NAPz,kind="3RSR"),smooth_table$Chron1,lty=1)
+lines(spline_smoothed$y,spline_smoothed$x,lty=3,col="red")
+plot(ss_smoothed,add=TRUE)
+
+#An alternative is binning the results and plotting box-whisker plots
+
+chrono_bins=seq(-12000,-1000,500)
+smooth_table[smooth_table[,5]>=chrono_bins[1]&smooth_table[,5]<=chrono_bins[2],4]
+bin_count=hist(smooth_table[,5],plot=FALSE)
+bin_matrix=matrix(nrow=max(bin_count$counts),ncol=length(chrono_bins))
+bin_matrix=as.data.frame(bin_matrix)
+colnames(bin_matrix)=seq(-12000,-1000,500)
+
+
+for(i in 1:length(chrono_bins)){
+  if(i==23){
+    x=smooth_table[smooth_table[,5]>=chrono_bins[i],2]
+  } else {
+    x=smooth_table[smooth_table[,5]>=chrono_bins[i]&smooth_table[,5]<=chrono_bins[i+1],4]
+  }
+  y=c(x,rep(NA,nrow(bin_matrix)-length(x)))
+  bin_matrix[,i]=y
+}
+
+plot(0,0,pch=NA,xlim=c(-4,4),ylim=c(-12000,0),xlab=NA,axes=FALSE,ylab="yr BP")
+boxplot(bin_matrix,horizontal=TRUE,add=TRUE,at=chrono_bins,boxwex=500)
+points(smooth_table$NAPz,smooth_table$Chron1,pch=21,bg="black",cex=0.8)
+lines(spline_smoothed$y,spline_smoothed$x,lty=3,col="red",lwd=2)
+title(main="Zscores of NAP% from Nigerian Pollen Cores")
